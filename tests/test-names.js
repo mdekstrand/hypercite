@@ -6,6 +6,12 @@ const basicLatinName = {
   given: 'Julius'
 }
 
+const rvwName = {
+  family: 'Winkle',
+  given: 'Rip',
+  'non-dropping-particle': 'van'
+}
+
 function make(csl) {
   return new data.Name(csl);
 }
@@ -28,6 +34,7 @@ describe('Name', () => {
   describe('#renderName', () => {
     describe("a two-part Latin name", () => {
       let name = make(basicLatinName);
+      
       it('should render given-first', () => {
         expect(name.renderName('given-first')).to.equal('Julius Caesar');
       });
@@ -50,5 +57,25 @@ describe('Name', () => {
         })).to.equal('Caesar, J.');
       });
     });
-  })
+
+    describe('Rip van Winkle, a non-dropping particle', () => {
+      let name = make(rvwName);
+
+      it('should include van in family name', () => {
+        expect(name.familyName).to.equal('van Winkle');
+      });
+
+      it('should lead with van in family-first', () => {
+        expect(name.renderName('family-first')).to.equal('van Winkle, Rip');
+      });
+
+      it('should render given-first', () => {
+        expect(name.renderName('given-first')).to.equal('Rip van Winkle');
+      });
+
+      it('should demote van when sorting', () => {
+        expect(name.renderName('sort')).to.equal('Winkle, Rip van');
+      });
+    })
+  });
 });
