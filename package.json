@@ -9,6 +9,7 @@
   "scripts": {
     "compile-schemas": "json2ts -o lib/csl-data.d.ts lib/csl-data.json",
     "test": "mocha tests",
+    "lint": "eslint lib",
     "docs": "jsdoc -d build/docs lib"
   },
   "devDependencies": {
