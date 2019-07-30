@@ -12,6 +12,11 @@ const rvwName = {
   'non-dropping-particle': 'van'
 }
 
+const longName = {
+  family: 'Pulcifer',
+  given: 'Thou Shalt Not Commit Adultery'
+}
+
 function make(csl) {
   return new data.Name(csl);
 }
@@ -28,6 +33,17 @@ describe('Name', () => {
     it('should return the given name', () => {
       let name = make(basicLatinName);
       expect(name.givenName).to.equal('Julius');
+    });
+  });
+
+  describe('#givenInitials', () => {
+    it('should return the given name initials', () => {
+      let name = make(basicLatinName);
+      expect(name.givenInitials).to.equal('J.');
+    });
+    it('should initialize multiple words', () => {
+      let name = make(longName);
+      expect(name.givenInitials).to.equal('T. S. N. C. A.');
     });
   });
 
