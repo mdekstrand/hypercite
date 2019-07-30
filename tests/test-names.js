@@ -17,6 +17,11 @@ const longName = {
   given: 'Thou Shalt Not Commit Adultery'
 }
 
+const mde = {
+  family: 'Ekstrand',
+  given: 'Michael D.'
+}
+
 function make(csl) {
   return new data.Name(csl);
 }
@@ -44,6 +49,10 @@ describe('Name', () => {
     it('should initialize multiple words', () => {
       let name = make(longName);
       expect(name.givenInitials).to.equal('T. S. N. C. A.');
+    });
+    it('should not reinitialize words', () => {
+      let name = make(mde);
+      expect(name.givenInitials).to.equal('M. D.');
     });
   });
 
