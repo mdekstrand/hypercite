@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "compile-schemas": "json2ts -o lib/csl-data.d.ts lib/csl-data.json",
-    "test": "mocha tests",
+    "test": "mocha test",
+    "coverage": "nyc --reporter=lcov mocha test",
     "lint": "eslint lib",
     "docs": "jsdoc -d build/docs lib"
   },
@@ -16,6 +17,7 @@
     "chai": "^4.2.0",
     "eslint": "^6.0.1",
     "jsdoc": "^3.6.2",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
   }
 }
