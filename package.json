@@ -15,9 +15,17 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
     "eslint": "^6.0.1",
+    "hast-util-to-string": "^1.0.2",
+    "hastscript": "^5.1.0",
+    "hyperscript": "^2.0.2",
     "jsdoc": "^3.6.2",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "citation-js": "^0.4.8",
+    "citeproc": "^2.2.21"
   }
 }
