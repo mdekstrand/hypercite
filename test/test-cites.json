@@ -1,0 +1,3346 @@
+[
+	{
+		"id": "yangMeasuringFairnessRanked2017",
+		"type": "paper-conference",
+		"title": "Measuring Fairness in Ranked Outputs",
+		"container-title": "Proceedings of the 29th International Conference on Scientific and Statistical Database Management",
+		"collection-title": "SSDBM '17",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "22:1–22:6",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Ranking and scoring are ubiquitous. We consider the setting in which an institution, called a ranker, evaluates a set of individuals based on demographic, behavioral or other characteristics. The final output is a ranking that represents the relative quality of the individuals. While automatic and therefore seemingly objective, rankers can, and often do, discriminate against individuals and systematically disadvantage members of protected groups. This warrants a careful study of the fairness of a ranking scheme, to enable data science for social good applications, among others. In this paper we propose fairness measures for ranked outputs. We develop a data generation procedure that allows us to systematically control the degree of unfairness in the output, and study the behavior of our measures on these datasets. We then apply our proposed measures to several real datasets, and detect cases of bias. Finally, we show preliminary results of incorporating our ranked fairness measures into an optimization framework, and show potential for improving fairness of ranked outputs while maintaining accuracy. The code implementing all parts of this work is publicly available at https://github.com/DataResponsibly/FairRank.",
+		"URL": "http://doi.acm.org/10.1145/3085504.3085526",
+		"DOI": "10.1145/3085504.3085526",
+		"ISBN": "978-1-4503-5282-6",
+		"note": "event-place: Chicago, IL, USA",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "Ke"
+			},
+			{
+				"family": "Stoyanovich",
+				"given": "Julia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					3,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "yangNutritionalLabelRankings2018",
+		"type": "paper-conference",
+		"title": "A Nutritional Label for Rankings",
+		"container-title": "Proceedings of the 2018 International Conference on Management of Data",
+		"collection-title": "SIGMOD '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "1773–1776",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Algorithmic decisions often result in scoring and ranking individuals to determine credit worthiness, qualifications for college admissions and employment, and compatibility as dating partners. While automatic and seemingly objective, ranking algorithms can discriminate against individuals and protected groups, and exhibit low diversity. Furthermore, ranked results are often unstable -- small changes in the input data or in the ranking methodology may lead to drastic changes in the output, making the result uninformative and easy to manipulate. Similar concerns apply in cases where items other than individuals are ranked, including colleges, academic departments, or products. Despite the ubiquity of rankers, there is, to the best of our knowledge, no technical work that focuses on making rankers transparent. In this demonstration we present Ranking Facts, a Web-based application that generates a \"nutritional label\" for rankings. Ranking Facts is made up of a collection of visual widgets that implement our latest research results on fairness, stability, and transparency for rankings, and that communicate details of the ranking methodology, or of the output, to the end user. We will showcase Ranking Facts on real datasets from different domains, including college rankings, criminal risk assessment, and financial services.",
+		"URL": "http://doi.acm.org/10.1145/3183713.3193568",
+		"DOI": "10.1145/3183713.3193568",
+		"ISBN": "978-1-4503-4703-7",
+		"note": "event-place: Houston, TX, USA",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "Ke"
+			},
+			{
+				"family": "Stoyanovich",
+				"given": "Julia"
+			},
+			{
+				"family": "Asudeh",
+				"given": "Abolfazl"
+			},
+			{
+				"family": "Howe",
+				"given": "Bill"
+			},
+			{
+				"family": "Jagadish",
+				"given": "HV"
+			},
+			{
+				"family": "Miklau",
+				"given": "Gerome"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					3,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "kamishimaModelBasedApproachesIndependenceEnhanced2016",
+		"type": "paper-conference",
+		"title": "Model-Based Approaches for Independence-Enhanced Recommendation",
+		"container-title": "2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)",
+		"page": "860-867",
+		"source": "IEEE Xplore",
+		"event": "2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)",
+		"abstract": "This paper studies a new approach to enhance recommendation independence. Such approaches are useful in ensuring adherence to laws and regulations, fair treatment of content providers, and exclusion of unwanted information. For example, recommendations that match an employer with a job applicant should not be based on socially sensitive information, such as gender or race, from the perspective of social fairness. An algorithm that could exclude the influence of such sensitive information would be useful in this case. We previously gave a formal definition of recommendation independence and proposed a method adopting a regularizer that imposes such an independence constraint. As no other options than this regularization approach have been put forward, we here propose a new model-based approach, which is based on a generative model that satisfies the constraint of recommendation independence. We apply this approach to a latent class model and empirically show that the model-based approach can enhance recommendation independence. Recommendation algorithms based on generative models, such as topic models, are important, because they have a flexible functionality that enables them to incorporate a wide variety of information types. Our new model-based approach will broaden the applications of independence-enhanced recommendation by integrating the functionality of generative models.",
+		"DOI": "10.1109/ICDMW.2016.0127",
+		"author": [
+			{
+				"family": "Kamishima",
+				"given": "T."
+			},
+			{
+				"family": "Akaho",
+				"given": "S."
+			},
+			{
+				"family": "Asoh",
+				"given": "H."
+			},
+			{
+				"family": "Sato",
+				"given": "I."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "dworkFairnessAwareness2012",
+		"type": "paper-conference",
+		"title": "Fairness Through Awareness",
+		"container-title": "ITCS '12",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "214–226",
+		"event": "Proceedings of the 3rd Innovations in Theoretical Computer Science Conference",
+		"event-place": "New York, NY, USA",
+		"abstract": "We study fairness in classification, where individuals are classified,\ne.g., admitted to a university, and the goal is to prevent discrimination\nagainst individuals based on their membership in some group, while\nmaintaining utility for the classifier (the university). The main\nconceptual contribution of this paper is a framework for fair\nclassification comprising (1) a (hypothetical) task-specific metric for\ndetermining the degree to which individuals are similar with respect to\nthe classification task at hand; (2) an algorithm for maximizing utility\nsubject to the fairness constraint, that similar individuals are treated\nsimilarly. We also present an adaptation of our approach to achieve the\ncomplementary goal of \"fair affirmative action,\" which guarantees\nstatistical parity (i.e., the demographics of the set of individuals\nreceiving any classification are the same as the demographics of the\nunderlying population), while treating similar individuals as similarly as\npossible. Finally, we discuss the relationship of fairness to privacy:\nwhen fairness implies privacy, and how tools developed in the context of\ndifferential privacy may be applied to fairness.",
+		"URL": "http://doi.acm.org/10.1145/2090236.2090255",
+		"DOI": "10.1145/2090236.2090255",
+		"author": [
+			{
+				"family": "Dwork",
+				"given": "Cynthia"
+			},
+			{
+				"family": "Hardt",
+				"given": "Moritz"
+			},
+			{
+				"family": "Pitassi",
+				"given": "Toniann"
+			},
+			{
+				"family": "Reingold",
+				"given": "Omer"
+			},
+			{
+				"family": "Zemel",
+				"given": "Richard"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					1,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "chouldechovaFairPredictionDisparate2016",
+		"type": "manuscript",
+		"title": "Fair prediction with disparate impact: A study of bias in recidivism prediction instruments",
+		"source": "arXiv",
+		"abstract": "Recidivism prediction instruments provide decision makers with an\nassessment of the likelihood that a criminal defendant will reoffend at a\nfuture point in time. While such instruments are gaining increasing\npopularity across the country, their use is attracting tremendous\ncontroversy. Much of the controversy concerns potential discriminatory\nbias in the risk assessments that are produced. This paper discusses a\nfairness criterion originating in the field of educational and\npsychological testing that has recently been applied to assess the\nfairness of recidivism prediction instruments. We demonstrate how\nadherence to the criterion may lead to considerable disparate impact when\nrecidivism prevalence differs across groups.",
+		"URL": "http://arxiv.org/abs/1610.07524",
+		"author": [
+			{
+				"family": "Chouldechova",
+				"given": "Alexandra"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					10,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "kleinbergInherentTradeOffsFair2016",
+		"type": "manuscript",
+		"title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+		"source": "arXiv",
+		"abstract": "Recent discussion in the public sphere about algorithmic classification\nhas involved tension between competing notions of what it means for a\nprobabilistic classification to be fair to different groups. We formalize\nthree fairness conditions that lie at the heart of these debates, and we\nprove that except in highly constrained special cases, there is no method\nthat can satisfy these three conditions simultaneously. Moreover, even\nsatisfying all three conditions approximately requires that the data lie\nin an approximate version of one of the constrained special cases\nidentified by our theorem. These results suggest some of the ways in which\nkey notions of fairness are incompatible with each other, and hence\nprovide a framework for thinking about the trade-offs between them.",
+		"URL": "http://arxiv.org/abs/1609.05807",
+		"author": [
+			{
+				"family": "Kleinberg",
+				"given": "Jon"
+			},
+			{
+				"family": "Mullainathan",
+				"given": "Sendhil"
+			},
+			{
+				"family": "Raghavan",
+				"given": "Manish"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					9,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "hannakBiasOnlineFreelance2016",
+		"type": "paper-conference",
+		"title": "Bias in Online Freelance Marketplaces: Evidence from TaskRabbit",
+		"event": "Proceedings of the Workshop on Data and Algorithm Transparency",
+		"URL": "http://datworkshop.org/papers/dat16-final22.pdf",
+		"author": [
+			{
+				"family": "Hannak",
+				"given": "Aniko"
+			},
+			{
+				"family": "Wagner",
+				"given": "Claudia"
+			},
+			{
+				"family": "Garcia",
+				"given": "David"
+			},
+			{
+				"family": "Strohmaier",
+				"given": "Markus"
+			},
+			{
+				"family": "Wilson",
+				"given": "Christo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "feldmanCertifyingRemovingDisparate2015",
+		"type": "paper-conference",
+		"title": "Certifying and Removing Disparate Impact",
+		"publisher": "ACM",
+		"page": "259-268",
+		"event": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"URL": "http://dl.acm.org/citation.cfm?doid=2783258.2783311",
+		"DOI": "10.1145/2783258.2783311",
+		"author": [
+			{
+				"family": "Feldman",
+				"given": "Michael"
+			},
+			{
+				"family": "Friedler",
+				"given": "Sorelle A"
+			},
+			{
+				"family": "Moeller",
+				"given": "John"
+			},
+			{
+				"family": "Scheidegger",
+				"given": "Carlos"
+			},
+			{
+				"family": "Venkatasubramanian",
+				"given": "Suresh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					8,
+					10
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					4,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "burkeMultisidedFairnessRecommendation2017",
+		"type": "manuscript",
+		"title": "Multisided Fairness for Recommendation",
+		"source": "arXiv",
+		"abstract": "Recent work on machine learning has begun to consider issues of fairness.\nIn this paper, we extend the concept of fairness to recommendation. In\nparticular, we show that in some recommendation contexts, fairness may be\na multisided concept, in which fair outcomes for multiple individuals need\nto be considered. Based on these considerations, we present a taxonomy of\nclasses of fairness-aware recommender systems and suggest possible\nfairness-aware recommendation architectures.",
+		"URL": "http://arxiv.org/abs/1707.00093",
+		"author": [
+			{
+				"family": "Burke",
+				"given": "Robin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "ensignRunawayFeedbackLoops2017",
+		"type": "manuscript",
+		"title": "Runaway Feedback Loops in Predictive Policing",
+		"source": "arXiv",
+		"abstract": "Predictive policing systems are increasingly used to determine how to\nallocate police across a city in order to best prevent crime. Observed\ncrime data (arrest counts) are used to update the model, and the process\nis repeated. Such systems have been shown susceptible to runaway feedback\nloops, where police are repeatedly sent back to the same neighborhoods\nregardless of the true crime rate. In response, we develop a model of\npredictive policing that shows why this feedback loop occurs, show\nempirically that this model exhibits such problems, and demonstrate how to\nchange the inputs to a predictive policing system (in a black-box manner)\nso the runaway feedback loop does not occur, allowing the true crime rate\nto be learned.",
+		"URL": "http://arxiv.org/abs/1706.09847",
+		"author": [
+			{
+				"family": "Ensign",
+				"given": "Danielle"
+			},
+			{
+				"family": "Friedler",
+				"given": "Sorelle A"
+			},
+			{
+				"family": "Neville",
+				"given": "Scott"
+			},
+			{
+				"family": "Scheidegger",
+				"given": "Carlos"
+			},
+			{
+				"family": "Venkatasubramanian",
+				"given": "Suresh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "mitchellPredictionBasedDecisionsFairness2018",
+		"type": "manuscript",
+		"title": "Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions",
+		"source": "arXiv",
+		"abstract": "A recent flurry of research activity has attempted to quantitatively\ndefine \"fairness\" for decisions based on statistical and machine learning\n(ML) predictions. The rapid growth of this new field has led to wildly\ninconsistent terminology and notation, presenting a serious challenge for\ncataloguing and comparing definitions. This paper attempts to bring\nmuch-needed order. First, we explicate the various choices and assumptions\nmade---often implicitly---to justify the use of prediction-based\ndecisions. Next, we show how such choices and assumptions can raise\nconcerns about fairness and we present a notationally consistent catalogue\nof fairness definitions from the ML literature. In doing so, we offer a\nconcise reference for thinking through the choices, assumptions, and\nfairness considerations of prediction-based decision systems.",
+		"URL": "http://arxiv.org/abs/1811.07867",
+		"author": [
+			{
+				"family": "Mitchell",
+				"given": "Shira"
+			},
+			{
+				"family": "Potash",
+				"given": "Eric"
+			},
+			{
+				"family": "Barocas",
+				"given": "Solon"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					11,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "steckCalibratedRecommendations2018",
+		"type": "paper-conference",
+		"title": "Calibrated recommendations",
+		"publisher": "ACM",
+		"page": "154-162",
+		"event": "Proceedings of the 12th ACM Conference on Recommender Systems",
+		"URL": "https://dl.acm.org/citation.cfm?doid=3240323.3240372",
+		"DOI": "10.1145/3240323.3240372",
+		"author": [
+			{
+				"family": "Steck",
+				"given": "Harald"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					27
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					11,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "yaoParityFairnessObjectives2017",
+		"type": "chapter",
+		"title": "Beyond Parity: Fairness Objectives for Collaborative Filtering",
+		"container-title": "Advances in Neural Information Processing Systems 30",
+		"publisher": "Curran Associates, Inc.",
+		"page": "2925-2934",
+		"URL": "http://papers.nips.cc/paper/6885-beyond-parity-fairness-objectives-for-collaborative-filtering.pdf",
+		"author": [
+			{
+				"family": "Yao",
+				"given": "Sirui"
+			},
+			{
+				"family": "Huang",
+				"given": "Bert"
+			}
+		],
+		"editor": [
+			{
+				"family": "Guyon",
+				"given": "I"
+			},
+			{
+				"family": "Luxburg",
+				"given": "U V"
+			},
+			{
+				"family": "Bengio",
+				"given": "S"
+			},
+			{
+				"family": "Wallach",
+				"given": "H"
+			},
+			{
+				"family": "Fergus",
+				"given": "R"
+			},
+			{
+				"family": "Vishwanathan",
+				"given": "S"
+			},
+			{
+				"family": "Garnett",
+				"given": "R"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "hutsonDebiasingDesireAddressing2018",
+		"type": "article-journal",
+		"title": "Debiasing Desire: Addressing Bias and Discrimination on Intimate Platforms",
+		"container-title": "Proceedings of the ACM on Human-Computer Interaction",
+		"page": "18",
+		"volume": "2",
+		"issue": "CSCW",
+		"abstract": "Designing technical systems to be resistant to bias and discrimination\nrepresents vital new terrain for researchers, policymakers, and the\nanti-discrimination project more broadly. We consider bias and\ndiscrimination in the context of popular online dating and hookup\nplatforms in the United States, which we call \"intimate platforms.\"\nDrawing on work in social-justice-oriented and Queer HCI, we review design\nfeatures of popular intimate platforms and their potential role in\nexacerbating or mitigating interpersonal bias. We argue that focusing on\nplatform design can reveal opportunities to reshape troubling patterns of\nintimate contact without overriding users’ decisional autonomy. We\nidentify and address the difficult ethical questions that nevertheless\ncome along with such intervention, while urging the social computing\ncommunity to engage more deeply with issues of bias, discrimination, and\nexclusion in the study and design of intimate platforms.",
+		"URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3244459",
+		"DOI": "10.1145/3274342",
+		"author": [
+			{
+				"family": "Hutson",
+				"given": "Jevan"
+			},
+			{
+				"family": "Taft",
+				"given": "Jessie"
+			},
+			{
+				"family": "Barocas",
+				"given": "Solon"
+			},
+			{
+				"family": "Levy",
+				"given": "Karen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					5
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "bag-recsys18",
+		"type": "paper-conference",
+		"title": "Exploring Author Gender in Book Rating and Recommendation",
+		"publisher": "ACM",
+		"event": "Proceedings of the Twelfth ACM Conference on Recommender Systems",
+		"URL": "https://md.ekstrandom.net/pubs/book-author-gender",
+		"DOI": "10.1145/3240323.3240373",
+		"note": "bibtex: bag-recsys18",
+		"author": [
+			{
+				"family": "Ekstrand",
+				"given": "Michael D"
+			},
+			{
+				"family": "Tian",
+				"given": "Mucun"
+			},
+			{
+				"family": "Kazi",
+				"given": "Mohammed R Imran"
+			},
+			{
+				"family": "Mehrpouyan",
+				"given": "Hoda"
+			},
+			{
+				"family": "Kluver",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "ekstrandAllCoolKids2018",
+		"type": "paper-conference",
+		"title": "All The Cool Kids, How Do They Fit In?: Popularity and Demographic Biases in Recommender Evaluation and Effectiveness",
+		"container-title": "PMLR",
+		"page": "172–186",
+		"volume": "81",
+		"event": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+		"URL": "http://proceedings.mlr.press/v81/ekstrand18b.html",
+		"author": [
+			{
+				"family": "Ekstrand",
+				"given": "Michael D"
+			},
+			{
+				"family": "Tian",
+				"given": "Mucun"
+			},
+			{
+				"family": "Azpiazu",
+				"given": "Ion Madrazo"
+			},
+			{
+				"family": "Ekstrand",
+				"given": "Jennifer D"
+			},
+			{
+				"family": "Anuyah",
+				"given": "Oghenemaro"
+			},
+			{
+				"family": "McNeill",
+				"given": "David"
+			},
+			{
+				"family": "Pera",
+				"given": "And Maria Soledad"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "kamishimaRecommendationIndependence2018",
+		"type": "article-journal",
+		"title": "Recommendation Independence",
+		"page": "187-201",
+		"volume": "81",
+		"abstract": "This paper studies a recommendation algorithm whose outcomes are not\ninfluenced by specified information. It is useful in contexts potentially\nunfair decision should be avoided, such as job-applicant recommendations\nthat are not influenced by socially sensitive information. An algorithm\nthat could exclude the influence of sensitive information would thus be\nuseful for job-matching with fairness. We call the condition between a\nrecommendation outcome and a sensitive feature Recommendation\nIndependence, which is formally defined as statistical independence\nbetween the outcome and the feature. Our previous independence-enhanced\nalgorithms simply matched the means of predictions between sub-datasets\nconsisting of the same sensitive value. However, this approach could not\nremove the sensitive information represented by the second or higher\nmoments of distributions. In this paper, we develop new methods that can\ndeal with the second moment, i.e., variance, of recommendation outcomes\nwithout increasing the computational complexity. These methods can more\nstrictly remove the sensitive information, and experimental results\ndemonstrate that our new algorithms can more effectively eliminate the\nfactors that undermine fairness. Additionally, we explore potential\napplications for independence-enhanced recommendation, and discuss its\nrelation to other concepts, such as recommendation diversity.",
+		"URL": "http://proceedings.mlr.press/v81/kamishima18a.html",
+		"author": [
+			{
+				"family": "Kamishima",
+				"given": "Toshihiro"
+			},
+			{
+				"family": "Akaho",
+				"given": "Shotaro"
+			},
+			{
+				"family": "Asoh",
+				"given": "Hideki"
+			},
+			{
+				"family": "Sakuma",
+				"given": "Jun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "burkeBalancedNeighborhoodsMultisided2018",
+		"type": "article-journal",
+		"title": "Balanced Neighborhoods for Multi-sided Fairness in Recommendation",
+		"page": "202-214",
+		"volume": "81",
+		"abstract": "Fairness has emerged as an important category of analysis for machine\nlearning systems in some application areas. In extending the concept of\nfairness to recommender systems, there is an essential tension between the\ngoals of fairness and those of personalization. However, there are\ncontexts in which equity across recommendation outcomes is a desirable\ngoal. It is also the case that in some applications fairness may be a\nmultisided concept, in which the impacts on multiple groups of individuals\nmust be considered. In this paper, we examine two different cases of\nfairness-aware recommender systems: consumer-centered and\nprovider-centered. We explore the concept of a balanced neighborhood as a\nmechanism to preserve personalization in recommendation while enhancing\nthe fairness of recommendation outcomes. We show that a modified version\nof the Sparse Linear Method (SLIM) can be used to improve the balance of\nuser and item neighborhoods, with the result of achieving greater outcome\nfairness in real-world datasets with minimal loss in ranking performance.",
+		"URL": "http://proceedings.mlr.press/v81/burke18a.html",
+		"author": [
+			{
+				"family": "Burke",
+				"given": "Robin"
+			},
+			{
+				"family": "Sonboli",
+				"given": "Nasim"
+			},
+			{
+				"family": "Ordonez-Gauger",
+				"given": "Aldo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "singhFairnessExposureRankings2018",
+		"type": "paper-conference",
+		"title": "Fairness of Exposure in Rankings",
+		"container-title": "KDD '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "2219-2228",
+		"event": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+		"event-place": "New York, NY, USA",
+		"URL": "http://doi.acm.org/10.1145/3219819.3220088",
+		"DOI": "10.1145/3219819.3220088",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Ashudeep"
+			},
+			{
+				"family": "Joachims",
+				"given": "Thorsten"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "burkeBalancedNeighborhoodsFairnessAware2017",
+		"type": "paper-conference",
+		"title": "Balanced Neighborhoods for Fairness-Aware Collaborative Recommendation",
+		"event": "FATREC Workshop on Fairness, Accountability and Transparency in Recommender Systems at RecSys 2017",
+		"abstract": "Recent work on fairness in machine learning has begun to be extended to\nrecommender systems. While there is a tension between the goals of\nfairness and of personalization, there are contexts in which a global\nevaluations of outcomes is possible and where equity across such outcomes\nis a desirable goal. In this paper, we introduce the concept of a balanced\nneighborhood as a mechanism to preserve personalization in recommendation\nwhile enhancing the fairness of recommendation outcomes.We show that a\nmodified version of the SLIM algorithm can be used to improve the balance\nof user neighborhoods, with the result of achieving greater outcome\nfairness in a real-world dataset with minimal loss in ranking performance.",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/3/",
+		"author": [
+			{
+				"family": "Burke",
+				"given": "Robin"
+			},
+			{
+				"family": "Sonboli",
+				"given": "Nasim"
+			},
+			{
+				"family": "Mansoury",
+				"given": "Masoud"
+			},
+			{
+				"family": "Ordonez-Gauger",
+				"given": "Aldo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					10,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "yaoParityFairnessObjectives2017a",
+		"type": "manuscript",
+		"title": "Beyond Parity: Fairness Objectives for Collaborative Filtering",
+		"source": "arXiv",
+		"abstract": "We study fairness in collaborative-filtering recommender systems, which\nare sensitive to discrimination that exists in historical data. Biased\ndata can lead collaborative-filtering methods to make unfair predictions\nfor users from minority groups. We identify the insufficiency of existing\nfairness metrics and propose four new metrics that address different forms\nof unfairness. These fairness metrics can be optimized by adding fairness\nterms to the learning objective. Experiments on synthetic and real data\nshow that our new metrics can better measure fairness than the baseline,\nand that the fairness objectives effectively help reduce unfairness.",
+		"URL": "http://arxiv.org/abs/1705.08804",
+		"author": [
+			{
+				"family": "Yao",
+				"given": "Sirui"
+			},
+			{
+				"family": "Huang",
+				"given": "Bert"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					5,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "stoicaAlgorithmicGlassCeiling2018",
+		"type": "paper-conference",
+		"title": "Algorithmic Glass Ceiling in Social Networks: The Effects of Social Recommendations on Network Diversity",
+		"container-title": "WWW '18",
+		"publisher": "International World Wide Web Conferences Steering Committee",
+		"publisher-place": "Republic and Canton of Geneva, Switzerland",
+		"page": "923-932",
+		"event": "Proceedings of the 2018 World Wide Web Conference",
+		"event-place": "Republic and Canton of Geneva, Switzerland",
+		"URL": "https://doi.org/10.1145/3178876.3186140",
+		"DOI": "10.1145/3178876.3186140",
+		"author": [
+			{
+				"family": "Stoica",
+				"given": "Ana-Andreea"
+			},
+			{
+				"family": "Riederer",
+				"given": "Christopher"
+			},
+			{
+				"family": "Chaintreau",
+				"given": "Augustin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "biegaEquityAttentionAmortizing2018",
+		"type": "paper-conference",
+		"title": "Equity of Attention: Amortizing Individual Fairness in Rankings",
+		"container-title": "The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval",
+		"publisher": "ACM",
+		"page": "405-414",
+		"URL": "https://dl.acm.org/citation.cfm?doid=3209978.3210063",
+		"DOI": "10.1145/3209978.3210063",
+		"author": [
+			{
+				"family": "Biega",
+				"given": "Asia J"
+			},
+			{
+				"family": "Gummadi",
+				"given": "Krishna P"
+			},
+			{
+				"family": "Weikum",
+				"given": "Gerhard"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					6,
+					27
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "beutelFairnessRecommendationRanking2019",
+		"type": "article-journal",
+		"title": "Fairness in Recommendation Ranking through Pairwise Comparisons",
+		"container-title": "arXiv:1903.00780 [cs, stat]",
+		"source": "arXiv.org",
+		"abstract": "Recommender systems are one of the most pervasive applications of machine learning in industry, with many services using them to match users to products or information. As such it is important to ask: what are the possible fairness risks, how can we quantify them, and how should we address them? In this paper we offer a set of novel metrics for evaluating algorithmic fairness concerns in recommender systems. In particular we show how measuring fairness based on pairwise comparisons from randomized experiments provides a tractable means to reason about fairness in rankings from recommender systems. Building on this metric, we offer a new regularizer to encourage improving this metric during model training and thus improve fairness in the resulting rankings. We apply this pairwise regularization to a large-scale, production recommender system and show that we are able to significantly improve the system's pairwise fairness.",
+		"URL": "http://arxiv.org/abs/1903.00780",
+		"note": "arXiv: 1903.00780",
+		"author": [
+			{
+				"family": "Beutel",
+				"given": "Alex"
+			},
+			{
+				"family": "Chen",
+				"given": "Jilin"
+			},
+			{
+				"family": "Doshi",
+				"given": "Tulsee"
+			},
+			{
+				"family": "Qian",
+				"given": "Hai"
+			},
+			{
+				"family": "Wei",
+				"given": "Li"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Heldt",
+				"given": "Lukasz"
+			},
+			{
+				"family": "Zhao",
+				"given": "Zhe"
+			},
+			{
+				"family": "Hong",
+				"given": "Lichan"
+			},
+			{
+				"family": "Chi",
+				"given": "Ed H."
+			},
+			{
+				"family": "Goodrow",
+				"given": "Cristos"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					3,
+					2
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					4,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "xiaoFairnessAwareGroupRecommendation2017",
+		"type": "paper-conference",
+		"title": "Fairness-Aware Group Recommendation with Pareto-Efficiency",
+		"container-title": "Proceedings of the Eleventh ACM Conference on Recommender Systems",
+		"collection-title": "RecSys '17",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "107–115",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Group recommendation has attracted significant research efforts for its importance in benefiting a group of users. This paper investigates the Group Recommendation problem from a novel aspect, which tries to maximize the satisfaction of each group member while minimizing the unfairness between them. In this work, we present several semantics of the individual utility and propose two concepts of social welfare and fairness for modeling the overall utilities and the balance between group members. We formulate the problem as a multiple objective optimization problem and show that it is NP-Hard in different semantics. Given the multiple-objective nature of fairness-aware group recommendation problem, we provide an optimization framework for fairness-aware group recommendation from the perspective of Pareto Efficiency. We conduct extensive experiments on real-world datasets and evaluate our algorithm in terms of standard accuracy metrics. The results indicate that our algorithm achieves superior performances and considering fairness in group recommendation can enhance the recommendation accuracy.",
+		"URL": "http://doi.acm.org/10.1145/3109859.3109887",
+		"DOI": "10.1145/3109859.3109887",
+		"ISBN": "978-1-4503-4652-8",
+		"note": "event-place: Como, Italy",
+		"author": [
+			{
+				"family": "Xiao",
+				"given": "Lin"
+			},
+			{
+				"family": "Min",
+				"given": "Zhang"
+			},
+			{
+				"family": "Yongfeng",
+				"given": "Zhang"
+			},
+			{
+				"family": "Zhaoquan",
+				"given": "Gu"
+			},
+			{
+				"family": "Yiqun",
+				"given": "Liu"
+			},
+			{
+				"family": "Shaoping",
+				"given": "Ma"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "sanz-cruzadoEnhancingStructuralDiversity2018",
+		"type": "paper-conference",
+		"title": "Enhancing structural diversity in social networks by recommending weak ties",
+		"container-title": "Proceedings of the 12th ACM Conference on Recommender Systems  - RecSys '18",
+		"publisher": "ACM Press",
+		"publisher-place": "Vancouver, British Columbia, Canada",
+		"page": "233-241",
+		"source": "Crossref",
+		"event": "the 12th ACM Conference",
+		"event-place": "Vancouver, British Columbia, Canada",
+		"abstract": "Contact recommendation has become a common functionality in online social platforms, and an established research topic in the social networks and recommender systems fields. Predicting and recommending links has been mainly addressed to date as an accuracy-targeting problem. In this paper we put forward a different perspective, considering that correctly predicted links may not be all equally valuable. Contact recommendation brings an opportunity to drive the structural evolution of a social network towards desirable properties of the network as a whole, beyond the sum of the isolated gains for the individual users to whom recommendations are delivered –global properties that we may want to assess and promote as explicit recommendation targets.",
+		"URL": "http://dl.acm.org/citation.cfm?doid=3240323.3240371",
+		"DOI": "10.1145/3240323.3240371",
+		"ISBN": "978-1-4503-5901-6",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sanz-Cruzado",
+				"given": "Javier"
+			},
+			{
+				"family": "Castells",
+				"given": "Pablo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "garcia-gathrightAssessingAddressingAlgorithmic2018",
+		"type": "article-journal",
+		"title": "Assessing and Addressing Algorithmic Bias - But Before We Get There",
+		"container-title": "arXiv:1809.03332 [cs]",
+		"source": "arXiv.org",
+		"abstract": "Algorithmic and data bias are gaining attention as a pressing issue in popular press - and rightly so. However, beyond these calls to action, standard processes and tools for practitioners do not readily exist to assess and address unfair algorithmic and data biases. The literature is relatively scattered and the needed interdisciplinary approach means that very different communities are working on the topic. We here provide a number of challenges encountered in assessing and addressing algorithmic and data bias in practice. We describe an early approach that attempts to translate the literature into processes for (production) teams wanting to assess both intended data and algorithm characteristics and unintended, unfair biases.",
+		"URL": "http://arxiv.org/abs/1809.03332",
+		"note": "arXiv: 1809.03332",
+		"author": [
+			{
+				"family": "Garcia-Gathright",
+				"given": "Jean"
+			},
+			{
+				"family": "Springer",
+				"given": "Aaron"
+			},
+			{
+				"family": "Cramer",
+				"given": "Henriette"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					10
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "burkeSyntheticAttributeData2018",
+		"type": "article-journal",
+		"title": "Synthetic Attribute Data for Evaluating Consumer-side Fairness",
+		"container-title": "arXiv:1809.04199 [cs]",
+		"source": "arXiv.org",
+		"abstract": "When evaluating recommender systems for their fairness, it may be necessary to make use of demographic attributes, which are personally sensitive and usually excluded from publicly-available data sets. In addition, these attributes are fixed and therefore it is not possible to experiment with different distributions using the same data. In this paper, we describe the Frequency-Linked Attribute Generation (FLAG) algorithm, and show its applicability for assigning synthetic demographic attributes to recommendation data sets.",
+		"URL": "http://arxiv.org/abs/1809.04199",
+		"note": "arXiv: 1809.04199",
+		"author": [
+			{
+				"family": "Burke",
+				"given": "Robin"
+			},
+			{
+				"family": "Kontny",
+				"given": "Jackson"
+			},
+			{
+				"family": "Sonboli",
+				"given": "Nasim"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					11
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "liuPersonalizingFairnessawareReranking2018",
+		"type": "article-journal",
+		"title": "Personalizing Fairness-aware Re-ranking",
+		"container-title": "arXiv:1809.02921 [cs]",
+		"source": "arXiv.org",
+		"abstract": "Personalized recommendation brings about novel challenges in ensuring fairness, especially in scenarios in which users are not the only stakeholders involved in the recommender system. For example, the system may want to ensure that items from different providers have a fair chance of being recommended. To solve this problem, we propose a Fairness-Aware Re-ranking algorithm (FAR) to balance the ranking quality and provider-side fairness. We iteratively generate the ranking list by trading off between accuracy and the coverage of the providers. Although fair treatment of providers is desirable, users may differ in their receptivity to the addition of this type of diversity. Therefore, personalized user tolerance towards provider diversification is incorporated. Experiments are conducted on both synthetic and real-world data. The results show that our proposed re-ranking algorithm can significantly promote fairness with a slight sacrifice in accuracy and can do so while being attentive to individual user differences.",
+		"URL": "http://arxiv.org/abs/1809.02921",
+		"note": "arXiv: 1809.02921",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Weiwen"
+			},
+			{
+				"family": "Burke",
+				"given": "Robin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					9
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "farnadiFairnessawareHybridRecommender2018",
+		"type": "article-journal",
+		"title": "A Fairness-aware Hybrid Recommender System",
+		"container-title": "arXiv:1809.09030 [cs, stat]",
+		"source": "arXiv.org",
+		"abstract": "Recommender systems are used in variety of domains affecting people's lives. This has raised concerns about possible biases and discrimination that such systems might exacerbate. There are two primary kinds of biases inherent in recommender systems: observation bias and bias stemming from imbalanced data. Observation bias exists due to a feedback loop which causes the model to learn to only predict recommendations similar to previous ones. Imbalance in data occurs when systematic societal, historical, or other ambient bias is present in the data. In this paper, we address both biases by proposing a hybrid fairness-aware recommender system. Our model provides efficient and accurate recommendations by incorporating multiple user-user and item-item similarity measures, content, and demographic information, while addressing recommendation biases. We implement our model using a powerful and expressive probabilistic programming language called probabilistic soft logic. We experimentally evaluate our approach on a popular movie recommendation dataset, showing that our proposed model can provide more accurate and fairer recommendations, compared to a state-of-the art fair recommender system.",
+		"URL": "http://arxiv.org/abs/1809.09030",
+		"note": "arXiv: 1809.09030",
+		"author": [
+			{
+				"family": "Farnadi",
+				"given": "Golnoosh"
+			},
+			{
+				"family": "Kouki",
+				"given": "Pigi"
+			},
+			{
+				"family": "Thompson",
+				"given": "Spencer K."
+			},
+			{
+				"family": "Srinivasan",
+				"given": "Sriram"
+			},
+			{
+				"family": "Getoor",
+				"given": "Lise"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					12
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "zhuFairnessAwareRecommendationInformation2018",
+		"type": "article-journal",
+		"title": "Fairness-Aware Recommendation of Information Curators",
+		"container-title": "arXiv:1809.03040 [cs]",
+		"source": "arXiv.org",
+		"abstract": "This paper highlights our ongoing efforts to create effective information curator recommendation models that can be personalized for individual users, while maintaining important fairness properties. Concretely, we introduce the problem of information curator recommendation, provide a high-level overview of a fairness-aware recommender, and introduce some preliminary experimental evidence over a real-world Twitter dataset. We conclude with some thoughts on future directions.",
+		"URL": "http://arxiv.org/abs/1809.03040",
+		"note": "arXiv: 1809.03040",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Ziwei"
+			},
+			{
+				"family": "Wang",
+				"given": "Jianling"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yin"
+			},
+			{
+				"family": "Caverlee",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					9
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "chakrabortyFairSharingSharing2017",
+		"type": "article-journal",
+		"title": "Fair Sharing for Sharing Economy Platforms",
+		"container-title": "Fairness, Accountability and Transparency in Recommender Systems",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/6",
+		"author": [
+			{
+				"family": "Chakraborty",
+				"given": "Abhijnan"
+			},
+			{
+				"family": "Hannak",
+				"given": "Aniko"
+			},
+			{
+				"family": "Biega",
+				"given": "Asia"
+			},
+			{
+				"family": "Gummadi",
+				"given": "Krishna"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "riedererPriceFairnessLocation2017",
+		"type": "article-journal",
+		"title": "The Price of Fairness in Location Based Advertising",
+		"container-title": "Fairness, Accountability and Transparency in Recommender Systems",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/5",
+		"author": [
+			{
+				"family": "Riederer",
+				"given": "Christopher"
+			},
+			{
+				"family": "Chaintreau",
+				"given": "Augustin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "sapiezynskiQuantifyingImpactUser2019",
+		"type": "paper-conference",
+		"title": "Quantifying the Impact of User Attention on Fair Group Representation in Ranked Lists",
+		"container-title": "Companion Proceedings of The 2019 World Wide Web Conference on   - WWW '19",
+		"publisher": "ACM Press",
+		"publisher-place": "San Francisco, USA",
+		"page": "553-562",
+		"source": "Crossref",
+		"event": "Companion  The 2019 World Wide Web Conference",
+		"event-place": "San Francisco, USA",
+		"abstract": "In this work, we introduce a novel metric for auditing group fairness in ranked lists. Our approach offers two benefits compared to the state of the art. First, we offer a blueprint for modeling of user attention. Rather than assuming a logarithmic loss in importance as a function of the rank, we can account for varying user behaviors through parametrization. For example, we expect a user to see more items during a viewing of a social media feed than when they inspect the results list of a single web search query. Second, we allow non-binary protected attributes to enable investigating inherently continuous attributes (e.g., political alignment on the liberal to conservative spectrum) as well as to facilitate measurements across aggregated sets of search results, rather than separately for each result list. By combining these two elements into our metric, we are able to better address the human factors inherent in this problem. We measure the whole sociotechnical system, consisting of a ranking algorithm and individuals using it, instead of exclusively focusing on the ranking algorithm. Finally, we use our metric to perform three simulated fairness audits. We show that determining fairness of a ranked output necessitates knowledge (or a model) of the end-users of the particular service. Depending on their attention distribution function, a fixed ranking of results can appear biased both in favor and against a protected group1.",
+		"URL": "http://dl.acm.org/citation.cfm?doid=3308560.3317595",
+		"DOI": "10.1145/3308560.3317595",
+		"ISBN": "978-1-4503-6675-5",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sapiezynski",
+				"given": "Piotr"
+			},
+			{
+				"family": "Zeng",
+				"given": "Wesley"
+			},
+			{
+				"family": "E Robertson",
+				"given": "Ronald"
+			},
+			{
+				"family": "Mislove",
+				"given": "Alan"
+			},
+			{
+				"family": "Wilson",
+				"given": "Christo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "fishGapsInformationAccess2019",
+		"type": "paper-conference",
+		"title": "Gaps in Information Access in Social Networks",
+		"container-title": "Proceedings of the World Wide Web Conference",
+		"page": "480-490",
+		"source": "arXiv.org",
+		"abstract": "The study of influence maximization in social networks has largely ignored disparate effects these algorithms might have on the individuals contained in the social network. Individuals may place a high value on receiving information, e.g. job openings or advertisements for loans. While well-connected individuals at the center of the network are likely to receive the information that is being distributed through the network, poorly connected individuals are systematically less likely to receive the information, producing a gap in access to the information between individuals. In this work, we study how best to spread information in a social network while minimizing this access gap. We propose to use the maximin social welfare function as an objective function, where we maximize the minimum probability of receiving the information under an intervention. We prove that in this setting this welfare function constrains the access gap whereas maximizing the expected number of nodes reached does not. We also investigate the difficulties of using the maximin, and present hardness results and analysis for standard greedy strategies. Finally, we investigate practical ways of optimizing for the maximin, and give empirical evidence that a simple greedy-based strategy works well in practice.",
+		"URL": "http://arxiv.org/abs/1903.02047",
+		"DOI": "10.1145/3308558.3313680",
+		"note": "arXiv: 1903.02047",
+		"author": [
+			{
+				"family": "Fish",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Bashardoust",
+				"given": "Ashkan"
+			},
+			{
+				"family": "boyd",
+				"given": "danah"
+			},
+			{
+				"family": "Friedler",
+				"given": "Sorelle A."
+			},
+			{
+				"family": "Scheidegger",
+				"given": "Carlos"
+			},
+			{
+				"family": "Venkatasubramanian",
+				"given": "Suresh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "serbosFairnessPackagetoGroupRecommendations2017",
+		"type": "paper-conference",
+		"title": "Fairness in Package-to-Group Recommendations",
+		"container-title": "Proceedings of the 26th International Conference on World Wide Web",
+		"collection-title": "WWW '17",
+		"publisher": "International World Wide Web Conferences Steering Committee",
+		"publisher-place": "Republic and Canton of Geneva, Switzerland",
+		"page": "371–379",
+		"source": "ACM Digital Library",
+		"event-place": "Republic and Canton of Geneva, Switzerland",
+		"abstract": "Recommending packages of items to groups of users has several applications, including recommending vacation packages to groups of tourists, entertainment packages to groups of friends, or sets of courses to groups of students. In this paper, we focus on a novel aspect of package-to-group recommendations, that of fairness. Specifically, when we recommend a package to a group of people, we ask that this recommendation is fair in the sense that every group member is satisfied by a sufficient number of items in the package. We explore two definitions of fairness and show that for either definition the problem of finding the most fair package is NP-hard. We exploit the fact that our problem can be modeled as a coverage problem, and we propose greedy algorithms that find approximate solutions within reasonable time. In addition, we study two extensions of the problem, where we impose category or spatial constraints on the items to be included in the recommended packages. We evaluate the appropriateness of the fairness models and the performance of the proposed algorithms using real data from Yelp, and a user study.",
+		"URL": "https://doi.org/10.1145/3038912.3052612",
+		"DOI": "10.1145/3038912.3052612",
+		"ISBN": "978-1-4503-4913-0",
+		"note": "event-place: Perth, Australia",
+		"author": [
+			{
+				"family": "Serbos",
+				"given": "Dimitris"
+			},
+			{
+				"family": "Qi",
+				"given": "Shuyao"
+			},
+			{
+				"family": "Mamoulis",
+				"given": "Nikos"
+			},
+			{
+				"family": "Pitoura",
+				"given": "Evaggelia"
+			},
+			{
+				"family": "Tsaparas",
+				"given": "Panayiotis"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "rastegarpanahFightingFireFire2019",
+		"type": "paper-conference",
+		"title": "Fighting Fire with Fire: Using Antidote Data to Improve Polarization and Fairness of Recommender Systems",
+		"container-title": "Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining",
+		"collection-title": "WSDM '19",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "231–239",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "The increasing role of recommender systems in many aspects of society makes it essential to consider how such systems may impact social good. Various modifications to recommendation algorithms have been proposed to improve their performance for specific socially relevant measures. However, previous proposals are often not easily adapted to different measures, and they generally require the ability to modify either existing system inputs, the system's algorithm, or the system's outputs. As an alternative, in this paper we introduce the idea of improving the social desirability of recommender system outputs by adding more data to the input, an approach we view as as providing 'antidote' data to the system. We formalize the antidote data problem, and develop optimization-based solutions. We take as our model system the matrix factorization approach to recommendation, and we propose a set of measures to capture the polarization or fairness of recommendations. We then show how to generate antidote data for each measure, pointing out a number of computational efficiencies, and discuss the impact on overall system accuracy. Our experiments show that a modest budget for antidote data can lead to significant improvements in the polarization or fairness of recommendations.",
+		"URL": "http://doi.acm.org/10.1145/3289600.3291002",
+		"DOI": "10.1145/3289600.3291002",
+		"ISBN": "978-1-4503-5940-5",
+		"note": "event-place: Melbourne VIC, Australia",
+		"title-short": "Fighting Fire with Fire",
+		"author": [
+			{
+				"family": "Rastegarpanah",
+				"given": "Bashir"
+			},
+			{
+				"family": "Gummadi",
+				"given": "Krishna P."
+			},
+			{
+				"family": "Crovella",
+				"given": "Mark"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "mehrotraFairMarketplaceCounterfactual2018",
+		"type": "paper-conference",
+		"title": "Towards a Fair Marketplace: Counterfactual Evaluation of the Trade-off Between Relevance, Fairness & Satisfaction in Recommendation Systems",
+		"container-title": "Proceedings of the 27th ACM International Conference on Information and Knowledge Management",
+		"collection-title": "CIKM '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "2243–2251",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Two-sided marketplaces are platforms that have customers not only on the demand side (e.g. users), but also on the supply side (e.g. retailer, artists). While traditional recommender systems focused specifically towards increasing consumer satisfaction by providing relevant content to consumers, two-sided marketplaces face the problem of additionally optimizing for supplier preferences, and visibility. Indeed, the suppliers would want afair opportunity to be presented to users. Blindly optimizing for consumer relevance may have a detrimental impact on supplier fairness. Motivated by this problem, we focus on the trade-off between objectives of consumers and suppliers in the case of music streaming services, and consider the trade-off betweenrelevance of recommendations to the consumer (i.e. user) andfairness of representation of suppliers (i.e. artists) and measure their impact on consumersatisfaction. We propose a conceptual and computational framework using counterfactual estimation techniques to understand, and evaluate different recommendation policies, specifically around the trade-off between relevance and fairness, without the need for running many costly A/B tests. We propose a number of recommendation policies which jointly optimize relevance and fairness, thereby achieving substantial improvement in supplier fairness without noticeable decline in user satisfaction. Additionally, we consider user disposition towards fair content, and propose a personalized recommendation policy which takes into account consumer's tolerance towards fair content. Our findings could guide the design of algorithms powering two-sided marketplaces, as well as guide future research on sophisticated algorithms for joint optimization of user relevance, satisfaction and fairness.",
+		"URL": "http://doi.acm.org/10.1145/3269206.3272027",
+		"DOI": "10.1145/3269206.3272027",
+		"ISBN": "978-1-4503-6014-2",
+		"note": "event-place: Torino, Italy",
+		"title-short": "Towards a Fair Marketplace",
+		"author": [
+			{
+				"family": "Mehrotra",
+				"given": "Rishabh"
+			},
+			{
+				"family": "McInerney",
+				"given": "James"
+			},
+			{
+				"family": "Bouchard",
+				"given": "Hugues"
+			},
+			{
+				"family": "Lalmas",
+				"given": "Mounia"
+			},
+			{
+				"family": "Diaz",
+				"given": "Fernando"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "zhuFairnessAwareTensorBasedRecommendation2018",
+		"type": "paper-conference",
+		"title": "Fairness-Aware Tensor-Based Recommendation",
+		"container-title": "Proceedings of the 27th ACM International Conference on Information and Knowledge Management",
+		"collection-title": "CIKM '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "1153–1162",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Tensor-based methods have shown promise in improving upon traditional matrix factorization methods for recommender systems. But tensors may achieve improved recommendation quality while worsening the fairness of the recommendations. Hence, we propose a novel fairness-aware tensor recommendation framework that is designed to maintain quality while dramatically improving fairness. Four key aspects of the proposed framework are: (i) a new sensitive latent factor matrix for isolating sensitive features; (ii) a sensitive information regularizer that extracts sensitive information which can taint other latent factors; (iii) an effective algorithm to solve the proposed optimization model; and (iv) extension to multi-feature and multi-category cases which previous efforts have not addressed. Extensive experiments on real-world and synthetic datasets show that the framework enhances recommendation fairness while preserving recommendation quality in comparison with state-of-the-art alternatives.",
+		"URL": "http://doi.acm.org/10.1145/3269206.3271795",
+		"DOI": "10.1145/3269206.3271795",
+		"ISBN": "978-1-4503-6014-2",
+		"note": "event-place: Torino, Italy",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Ziwei"
+			},
+			{
+				"family": "Hu",
+				"given": "Xia"
+			},
+			{
+				"family": "Caverlee",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "anavaAstNearestNeighbors2016",
+		"type": "chapter",
+		"title": "k\\ast -Nearest Neighbors: From Global to Local",
+		"container-title": "Advances in Neural Information Processing Systems 29",
+		"publisher": "Curran Associates, Inc.",
+		"page": "4916–4924",
+		"source": "Neural Information Processing Systems",
+		"URL": "http://papers.nips.cc/paper/6373-k-nearest-neighbors-from-global-to-local.pdf",
+		"title-short": "k\\ast -Nearest Neighbors",
+		"author": [
+			{
+				"family": "Anava",
+				"given": "Oren"
+			},
+			{
+				"family": "Levy",
+				"given": "Kfir"
+			}
+		],
+		"editor": [
+			{
+				"family": "Lee",
+				"given": "D. D."
+			},
+			{
+				"family": "Sugiyama",
+				"given": "M."
+			},
+			{
+				"family": "Luxburg",
+				"given": "U. V."
+			},
+			{
+				"family": "Guyon",
+				"given": "I."
+			},
+			{
+				"family": "Garnett",
+				"given": "R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "ensignDecisionMakingLimited",
+		"type": "article-journal",
+		"title": "Decision making with limited feedback: Error bounds for predictive policing and recidivism prediction",
+		"page": "9",
+		"source": "Zotero",
+		"abstract": "In this paper, we focus on the problems of recidivism prediction and predictive policing. We present the ﬁrst algorithms with provable regret for these problems, by showing that both problems (and others like these) can be abstracted into a general reinforcement learning framework called partial monitoring. We also discuss the policy implications of these solutions.",
+		"language": "en",
+		"author": [
+			{
+				"family": "Ensign",
+				"given": "Danielle"
+			},
+			{
+				"family": "Frielder",
+				"given": "Sorelle A"
+			},
+			{
+				"family": "Neville",
+				"given": "Scott"
+			},
+			{
+				"family": "Scheidegger",
+				"given": "Carlos"
+			},
+			{
+				"family": "Venkatasubramanian",
+				"given": "Suresh"
+			}
+		]
+	},
+	{
+		"id": "greenDisparateInteractionsAlgorithmintheLoop2019a",
+		"type": "paper-conference",
+		"title": "Disparate Interactions: An Algorithm-in-the-Loop Analysis of Fairness in Risk Assessments",
+		"container-title": "Proceedings of the Conference on Fairness, Accountability, and Transparency  - FAT* '19",
+		"publisher": "ACM Press",
+		"publisher-place": "Atlanta, GA, USA",
+		"page": "90-99",
+		"source": "DOI.org (Crossref)",
+		"event": "the Conference",
+		"event-place": "Atlanta, GA, USA",
+		"abstract": "Despite vigorous debates about the technical characteristics of risk assessments being deployed in the U.S. criminal justice system, remarkably little research has studied how these tools a�ect actual decision-making processes. After all, risk assessments do not make de�nitive decisions—they inform judges, who are the �nal arbiters. It is therefore essential that considerations of risk assessments be informed by rigorous studies of how judges actually interpret and use them. This paper takes a �rst step toward such research on human interactions with risk assessments through a controlled experimental study on Amazon Mechanical Turk. We found several behaviors that call into question the supposed e�cacy and fairness of risk assessments: our study participants 1) underperformed the risk assessment even when presented with its predictions, 2) could not e�ectively evaluate the accuracy of their own or the risk assessment’s predictions, and 3) exhibited behaviors fraught with “disparate interactions,” whereby the use of risk assessments led to higher risk predictions about black defendants and lower risk predictions about white defendants. These results suggest the need for a new “algorithm-in-the-loop” framework that places machine learning decision-making aids into the sociotechnical context of improving human decisions rather than the technical context of generating the best prediction in the abstract. If risk assessments are to be used at all, they must be grounded in rigorous evaluations of their real-world impacts instead of in their theoretical potential.",
+		"URL": "http://dl.acm.org/citation.cfm?doid=3287560.3287563",
+		"DOI": "10.1145/3287560.3287563",
+		"ISBN": "978-1-4503-6125-5",
+		"title-short": "Disparate Interactions",
+		"language": "en",
+		"author": [
+			{
+				"family": "Green",
+				"given": "Ben"
+			},
+			{
+				"family": "Chen",
+				"given": "Yiling"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "chouldechovaFairPredictionDisparate2017",
+		"type": "article-journal",
+		"title": "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments",
+		"container-title": "Big Data",
+		"page": "153-163",
+		"volume": "5",
+		"issue": "2",
+		"source": "liebertpub.com (Atypon)",
+		"abstract": "Recidivism prediction instruments (RPIs) provide decision-makers with an assessment of the likelihood that a criminal defendant will reoffend at a future point in time. Although such instruments are gaining increasing popularity across the country, their use is attracting tremendous controversy. Much of the controversy concerns potential discriminatory bias in the risk assessments that are produced. This article discusses several fairness criteria that have recently been applied to assess the fairness of RPIs. We demonstrate that the criteria cannot all be simultaneously satisfied when recidivism prevalence differs across groups. We then show how disparate impact can arise when an RPI fails to satisfy the criterion of error rate balance.",
+		"URL": "https://www.liebertpub.com/doi/abs/10.1089/big.2016.0047",
+		"DOI": "10.1089/big.2016.0047",
+		"ISSN": "2167-6461",
+		"title-short": "Fair Prediction with Disparate Impact",
+		"journalAbbreviation": "Big Data",
+		"author": [
+			{
+				"family": "Chouldechova",
+				"given": "Alexandra"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6,
+					1
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "kleinbergInherentTradeOffsFair2017",
+		"type": "paper-conference",
+		"title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+		"container-title": "8th Innovations in Theoretical Computer Science Conference (ITCS 2017)",
+		"collection-title": "Leibniz International Proceedings in Informatics (LIPIcs)",
+		"publisher": "Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik",
+		"publisher-place": "Dagstuhl, Germany",
+		"page": "43:1–43:23",
+		"volume": "67",
+		"source": "Dagstuhl Research Online Publication Server",
+		"event-place": "Dagstuhl, Germany",
+		"URL": "http://drops.dagstuhl.de/opus/volltexte/2017/8156",
+		"DOI": "10.4230/LIPIcs.ITCS.2017.43",
+		"ISBN": "978-3-95977-029-3",
+		"author": [
+			{
+				"family": "Kleinberg",
+				"given": "Jon"
+			},
+			{
+				"family": "Mullainathan",
+				"given": "Sendhil"
+			},
+			{
+				"family": "Raghavan",
+				"given": "Manish"
+			}
+		],
+		"editor": [
+			{
+				"family": "Papadimitriou",
+				"given": "Christos H."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "zafarFairnessDisparateTreatment2017a",
+		"type": "paper-conference",
+		"title": "Fairness Beyond Disparate Treatment & Disparate Impact: Learning Classification Without Disparate Mistreatment",
+		"container-title": "Proceedings of the 26th International Conference on World Wide Web",
+		"collection-title": "WWW '17",
+		"publisher": "International World Wide Web Conferences Steering Committee",
+		"publisher-place": "Republic and Canton of Geneva, Switzerland",
+		"page": "1171–1180",
+		"source": "ACM Digital Library",
+		"event-place": "Republic and Canton of Geneva, Switzerland",
+		"abstract": "Automated data-driven decision making systems are increasingly being used to assist, or even replace humans in many settings. These systems function by learning from historical decisions, often taken by humans. In order to maximize the utility of these systems (or, classifiers), their training involves minimizing the errors (or, misclassifications) over the given historical data. However, it is quite possible that the optimally trained classifier makes decisions for people belonging to different social groups with different misclassification rates (e.g., misclassification rates for females are higher than for males), thereby placing these groups at an unfair disadvantage. To account for and avoid such unfairness, in this paper, we introduce a new notion of unfairness, disparate mistreatment, which is defined in terms of misclassification rates. We then propose intuitive measures of disparate mistreatment for decision boundary-based classifiers, which can be easily incorporated into their formulation as convex-concave constraints. Experiments on synthetic as well as real world datasets show that our methodology is effective at avoiding disparate mistreatment, often at a small cost in terms of accuracy.",
+		"URL": "https://doi.org/10.1145/3038912.3052660",
+		"DOI": "10.1145/3038912.3052660",
+		"ISBN": "978-1-4503-4913-0",
+		"note": "event-place: Perth, Australia",
+		"title-short": "Fairness Beyond Disparate Treatment & Disparate Impact",
+		"author": [
+			{
+				"family": "Zafar",
+				"given": "Muhammad Bilal"
+			},
+			{
+				"family": "Valera",
+				"given": "Isabel"
+			},
+			{
+				"family": "Gomez Rodriguez",
+				"given": "Manuel"
+			},
+			{
+				"family": "Gummadi",
+				"given": "Krishna P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "corbett-daviesAlgorithmicDecisionMaking2017",
+		"type": "paper-conference",
+		"title": "Algorithmic Decision Making and the Cost of Fairness",
+		"container-title": "Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"collection-title": "KDD '17",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "797–806",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Algorithms are now regularly used to decide whether defendants awaiting trial are too dangerous to be released back into the community. In some cases, black defendants are substantially more likely than white defendants to be incorrectly classified as high risk. To mitigate such disparities, several techniques have recently been proposed to achieve algorithmic fairness. Here we reformulate algorithmic fairness as constrained optimization: the objective is to maximize public safety while satisfying formal fairness constraints designed to reduce racial disparities. We show that for several past definitions of fairness, the optimal algorithms that result require detaining defendants above race-specific risk thresholds. We further show that the optimal unconstrained algorithm requires applying a single, uniform threshold to all defendants. The unconstrained algorithm thus maximizes public safety while also satisfying one important understanding of equality: that all individuals are held to the same standard, irrespective of race. Because the optimal constrained and unconstrained algorithms generally differ, there is tension between improving public safety and satisfying prevailing notions of algorithmic fairness. By examining data from Broward County, Florida, we show that this trade-off can be large in practice. We focus on algorithms for pretrial release decisions, but the principles we discuss apply to other domains, and also to human decision makers carrying out structured decision rules.",
+		"URL": "http://doi.acm.org/10.1145/3097983.3098095",
+		"DOI": "10.1145/3097983.3098095",
+		"ISBN": "978-1-4503-4887-4",
+		"note": "event-place: Halifax, NS, Canada",
+		"author": [
+			{
+				"family": "Corbett-Davies",
+				"given": "Sam"
+			},
+			{
+				"family": "Pierson",
+				"given": "Emma"
+			},
+			{
+				"family": "Feller",
+				"given": "Avi"
+			},
+			{
+				"family": "Goel",
+				"given": "Sharad"
+			},
+			{
+				"family": "Huq",
+				"given": "Aziz"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "hashimotoFairnessDemographicsRepeated2018a",
+		"type": "paper-conference",
+		"title": "Fairness Without Demographics in Repeated Loss Minimization",
+		"container-title": "International Conference on Machine Learning",
+		"page": "1929-1938",
+		"source": "proceedings.mlr.press",
+		"event": "International Conference on Machine Learning",
+		"abstract": "Machine learning models (e.g., speech recognizers) trained on average loss suffer from representation disparity—minority groups (e.g., non-native speakers) carry less weight in the training objecti...",
+		"URL": "http://proceedings.mlr.press/v80/hashimoto18a.html",
+		"language": "en",
+		"author": [
+			{
+				"family": "Hashimoto",
+				"given": "Tatsunori"
+			},
+			{
+				"family": "Srivastava",
+				"given": "Megha"
+			},
+			{
+				"family": "Namkoong",
+				"given": "Hongseok"
+			},
+			{
+				"family": "Liang",
+				"given": "Percy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					7,
+					3
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "ensignRunawayFeedbackLoops2018",
+		"type": "paper-conference",
+		"title": "Runaway Feedback Loops in Predictive Policing",
+		"container-title": "Conference on Fairness, Accountability and Transparency",
+		"page": "160-171",
+		"source": "proceedings.mlr.press",
+		"event": "Conference on Fairness, Accountability and Transparency",
+		"abstract": "Predictive policing systems are increasingly used to determine how to allocate police across a city in order to best prevent crime. Discovered crime data (e.g., arrest counts) are used to help upda...",
+		"URL": "http://proceedings.mlr.press/v81/ensign18a.html",
+		"language": "en",
+		"author": [
+			{
+				"family": "Ensign",
+				"given": "Danielle"
+			},
+			{
+				"family": "Friedler",
+				"given": "Sorelle A."
+			},
+			{
+				"family": "Neville",
+				"given": "Scott"
+			},
+			{
+				"family": "Scheidegger",
+				"given": "Carlos"
+			},
+			{
+				"family": "Venkatasubramanian",
+				"given": "Suresh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					1,
+					21
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "leeFairnessAwareLoanRecommendation2014",
+		"type": "paper-conference",
+		"title": "Fairness-Aware Loan Recommendation for Microfinance Services",
+		"container-title": "Proceedings of the 2014 International Conference on Social Computing",
+		"collection-title": "SocialCom '14",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "3:1–3:4",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Up to date, more than 15 billion US dollars have been invested in microfinance that benefited more than 160 million people in developing countries. The Kiva organization is one of the successful examples that use a decentralized matching process to match lenders and borrowers. Interested lenders from around the world can look for cases among thousands of applicants they found promising to lend the money to. But how can loan borrowers and lenders be successfully matched up in a microfinance platform like Kiva? We argue that a sophisticate recommender not only pairs up loan lenders and borrowers in accordance to their preferences, but should also help to diversify the distribution of donations to reduce the inequality of loans is highly demanded, as altruism, like any resource, can be congestible. In this paper, we propose a fairness-aware recommendation system based on one-class collaborative-filtering techniques for charity and micro-loan platform such as Kiva.org. Our experiments on real dataset indicates that the proposed method can largely improve the loan distribution fairness while retaining the accuracy of recommendations.",
+		"URL": "http://doi.acm.org/10.1145/2639968.2640064",
+		"DOI": "10.1145/2639968.2640064",
+		"ISBN": "978-1-4503-2888-3",
+		"note": "event-place: Beijing, China",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Eric L."
+			},
+			{
+				"family": "Lou",
+				"given": "Jing-Kai"
+			},
+			{
+				"family": "Chen",
+				"given": "Wei-Ming"
+			},
+			{
+				"family": "Chen",
+				"given": "Yen-Chi"
+			},
+			{
+				"family": "Lin",
+				"given": "Shou-De"
+			},
+			{
+				"family": "Chiang",
+				"given": "Yen-Sheng"
+			},
+			{
+				"family": "Chen",
+				"given": "Kuan-Ta"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "adarHaystackPeruserInformation1999",
+		"type": "paper-conference",
+		"title": "Haystack: per-user information environments",
+		"container-title": "Proceedings of the eighth international conference on Information and knowledge management  - CIKM '99",
+		"publisher": "ACM Press",
+		"publisher-place": "Kansas City, Missouri, United States",
+		"page": "413-422",
+		"source": "DOI.org (Crossref)",
+		"event": "the eighth international conference",
+		"event-place": "Kansas City, Missouri, United States",
+		"abstract": "Traditional Information Retrieval  IR  systems are designed to provide uniform access to centralized corpora by large numbers of people. The Haystack project emphasizes the relationship between a particular individual and his corpus. An individual's own haystack priviliges information with which that user interacts, gathers data about those interactions, and uses this metadata to further personalize the retrieval process. This paper describes the prototype Haystack system.",
+		"URL": "http://portal.acm.org/citation.cfm?doid=319950.323231",
+		"DOI": "10.1145/319950.323231",
+		"ISBN": "978-1-58113-146-8",
+		"title-short": "Haystack",
+		"language": "en",
+		"author": [
+			{
+				"family": "Adar",
+				"given": "Eytan"
+			},
+			{
+				"family": "Kargar",
+				"given": "David"
+			},
+			{
+				"family": "Stein",
+				"given": "Lynn Andrea"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1999"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "lievrouwInformationEquity2003",
+		"type": "article-journal",
+		"title": "Information and equity",
+		"container-title": "Annual Review of Information Science and Technology",
+		"page": "499-540",
+		"volume": "37",
+		"issue": "1",
+		"source": "Wiley Online Library",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aris.1440370112",
+		"DOI": "10.1002/aris.1440370112",
+		"ISSN": "1550-8382",
+		"language": "en",
+		"author": [
+			{
+				"family": "Lievrouw",
+				"given": "Leah A."
+			},
+			{
+				"family": "Farb",
+				"given": "Sharon E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "jansenSeventeenTheoreticalConstructs2010",
+		"type": "article-journal",
+		"title": "The seventeen theoretical constructs of information searching and information retrieval",
+		"container-title": "Journal of the American Society for Information Science and Technology",
+		"page": "1517-1534",
+		"volume": "61",
+		"issue": "8",
+		"source": "Wiley Online Library",
+		"abstract": "In this article, we identify, compare, and contrast theoretical constructs for the fields of information searching and information retrieval to emphasize the uniqueness of and synergy between the fields. Theoretical constructs are the foundational elements that underpin a field's core theories, models, assumptions, methodologies, and evaluation metrics. We provide a framework to compare and contrast the theoretical constructs in the fields of information searching and information retrieval using intellectual perspective and theoretical orientation. The intellectual perspectives are information searching, information retrieval, and cross-cutting; and the theoretical orientations are information, people, and technology. Using this framework, we identify 17 significant constructs in these fields contrasting the differences and comparing the similarities. We discuss the impact of the interplay among these constructs for moving research forward within both fields. Although there is tension between the fields due to contradictory constructs, an examination shows a trend toward convergence. We discuss the implications for future research within the information searching and information retrieval fields.",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/asi.21358",
+		"DOI": "10.1002/asi.21358",
+		"ISSN": "1532-2890",
+		"language": "en",
+		"author": [
+			{
+				"family": "Jansen",
+				"given": "Bernard J."
+			},
+			{
+				"family": "Rieh",
+				"given": "Soo Young"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "hajianAlgorithmicBiasDiscrimination2016",
+		"type": "paper-conference",
+		"title": "Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining",
+		"container-title": "Proceedings of the 22Nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"collection-title": "KDD '16",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "2125–2126",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Algorithms and decision making based on Big Data have become pervasive in all aspects of our daily lives lives (offline and online), as they have become essential tools in personal finance, health care, hiring, housing, education, and policies. It is therefore of societal and ethical importance to ask whether these algorithms can be discriminative on grounds such as gender, ethnicity, or health status. It turns out that the answer is positive: for instance, recent studies in the context of online advertising show that ads for high-income jobs are presented to men much more often than to women [Datta et al., 2015]; and ads for arrest records are significantly more likely to show up on searches for distinctively black names [Sweeney, 2013]. This algorithmic bias exists even when there is no discrimination intention in the developer of the algorithm. Sometimes it may be inherent to the data sources used (software making decisions based on data can reflect, or even amplify, the results of historical discrimination), but even when the sensitive attributes have been suppressed from the input, a well trained machine learning algorithm may still discriminate on the basis of such sensitive attributes because of correlations existing in the data. These considerations call for the development of data mining systems which are discrimination-conscious by-design. This is a novel and challenging research area for the data mining community. The aim of this tutorial is to survey algorithmic bias, presenting its most common variants, with an emphasis on the algorithmic techniques and key ideas developed to derive efficient solutions. The tutorial covers two main complementary approaches: algorithms for discrimination discovery and discrimination prevention by means of fairness-aware data mining. We conclude by summarizing promising paths for future research.",
+		"URL": "http://doi.acm.org/10.1145/2939672.2945386",
+		"DOI": "10.1145/2939672.2945386",
+		"ISBN": "978-1-4503-4232-2",
+		"note": "event-place: San Francisco, California, USA",
+		"title-short": "Algorithmic Bias",
+		"author": [
+			{
+				"family": "Hajian",
+				"given": "Sara"
+			},
+			{
+				"family": "Bonchi",
+				"given": "Francesco"
+			},
+			{
+				"family": "Castillo",
+				"given": "Carlos"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "castilloFairnessTransparencyRanking2019",
+		"type": "article-journal",
+		"title": "Fairness and Transparency in Ranking",
+		"container-title": "SIGIR Forum",
+		"page": "64–71",
+		"volume": "52",
+		"issue": "2",
+		"source": "ACM Digital Library",
+		"abstract": "Ranking in Information Retrieval (IR) has been traditionally evaluated from the perspective of the relevance of search engine results to people searching for information, i.e., the extent to which the system provides \"the right information, to the right people, in the right way, at the right time.\" However, people in current IR systems are not only the ones issuing search queries, but increasingly they are also the ones being searched. This raises several new problems in IR that have been addressed in recent research, particularly with respect to fairness/non-discrimination, accountability, and transparency. This is a summary of some these initial developments.",
+		"URL": "http://doi.acm.org/10.1145/3308774.3308783",
+		"DOI": "10.1145/3308774.3308783",
+		"ISSN": "0163-5840",
+		"author": [
+			{
+				"family": "Castillo",
+				"given": "Carlos"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "celisRankingFairnessConstraints2018",
+		"type": "paper-conference",
+		"title": "Ranking with Fairness Constraints",
+		"container-title": "45th International Colloquium on Automata, Languages, and Programming (ICALP 2018)",
+		"collection-title": "Leibniz International Proceedings in Informatics (LIPIcs)",
+		"publisher": "Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik",
+		"publisher-place": "Dagstuhl, Germany",
+		"page": "28:1–28:15",
+		"volume": "107",
+		"source": "Dagstuhl Research Online Publication Server",
+		"event-place": "Dagstuhl, Germany",
+		"URL": "http://drops.dagstuhl.de/opus/volltexte/2018/9032",
+		"DOI": "10.4230/LIPIcs.ICALP.2018.28",
+		"ISBN": "978-3-95977-076-7",
+		"author": [
+			{
+				"family": "Celis",
+				"given": "L. Elisa"
+			},
+			{
+				"family": "Straszak",
+				"given": "Damian"
+			},
+			{
+				"family": "Vishnoi",
+				"given": "Nisheeth K."
+			}
+		],
+		"editor": [
+			{
+				"family": "Chatzigiannakis",
+				"given": "Ioannis"
+			},
+			{
+				"family": "Kaklamanis",
+				"given": "Christos"
+			},
+			{
+				"family": "Marx",
+				"given": "Dániel"
+			},
+			{
+				"family": "Sannella",
+				"given": "Donald"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "asudehDesigningFairRanking2017",
+		"type": "article-journal",
+		"title": "Designing Fair Ranking Schemes",
+		"container-title": "arXiv:1712.09752 [cs]",
+		"source": "arXiv.org",
+		"abstract": "Items from a database are often ranked based on a combination of multiple criteria. A user may have the flexibility to accept combinations that weigh these criteria differently, within limits. On the other hand, this choice of weights can greatly affect the fairness of the produced ranking. In this paper, we develop a system that helps users choose criterion weights that lead to greater fairness. We consider ranking functions that compute the score of each item as a weighted sum of (numeric) attribute values, and then sort items on their score. Each ranking function can be expressed as a vector of weights, or as a point in a multi-dimensional space. For a broad range of fairness criteria, we show how to efficiently identify regions in this space that satisfy these criteria. Using this identification method, our system is able to tell users whether their proposed ranking function satisfies the desired fairness criteria and, if it does not, to suggest the smallest modification that does. We develop user-controllable approximation that and indexing techniques that are applied during preprocessing, and support sub-second response times during the online phase. Our extensive experiments on real datasets demonstrate that our methods are able to find solutions that satisfy fairness criteria effectively and efficiently.",
+		"URL": "http://arxiv.org/abs/1712.09752",
+		"note": "arXiv: 1712.09752",
+		"author": [
+			{
+				"family": "Asudeh",
+				"given": "Abolfazl"
+			},
+			{
+				"family": "Jagadish",
+				"given": "H. V."
+			},
+			{
+				"family": "Stoyanovich",
+				"given": "Julia"
+			},
+			{
+				"family": "Das",
+				"given": "Gautam"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					12,
+					27
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "zehlikeFAIRFair2017",
+		"type": "paper-conference",
+		"title": "FA*IR: A Fair Top-k Ranking Algorithm",
+		"container-title": "Proceedings of the 2017 ACM on Conference on Information and Knowledge Management",
+		"collection-title": "CIKM '17",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "1569–1578",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "In this work, we define and solve the Fair Top-k Ranking problem, in which we want to determine a subset of k candidates from a large pool of n » k candidates, maximizing utility (i.e., select the \"best\" candidates) subject to group fairness criteria. Our ranked group fairness definition extends group fairness using the standard notion of protected groups and is based on ensuring that the proportion of protected candidates in every prefix of the top-k ranking remains statistically above or indistinguishable from a given minimum. Utility is operationalized in two ways: (i) every candidate included in the top-k should be more qualified than every candidate not included; and (ii) for every pair of candidates in the top-k, the more qualified candidate should be ranked above. An efficient algorithm is presented for producing the Fair Top-k Ranking, and tested experimentally on existing datasets as well as new datasets released with this paper, showing that our approach yields small distortions with respect to rankings that maximize utility without considering fairness criteria. To the best of our knowledge, this is the first algorithm grounded in statistical tests that can mitigate biases in the representation of an under-represented group along a ranked list.",
+		"URL": "http://doi.acm.org/10.1145/3132847.3132938",
+		"DOI": "10.1145/3132847.3132938",
+		"ISBN": "978-1-4503-4918-5",
+		"note": "event-place: Singapore, Singapore",
+		"title-short": "FA*IR",
+		"author": [
+			{
+				"family": "Zehlike",
+				"given": "Meike"
+			},
+			{
+				"family": "Bonchi",
+				"given": "Francesco"
+			},
+			{
+				"family": "Castillo",
+				"given": "Carlos"
+			},
+			{
+				"family": "Hajian",
+				"given": "Sara"
+			},
+			{
+				"family": "Megahed",
+				"given": "Mohamed"
+			},
+			{
+				"family": "Baeza-Yates",
+				"given": "Ricardo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "singhPolicyLearningFairness2019",
+		"type": "article-journal",
+		"title": "Policy Learning for Fairness in Ranking",
+		"container-title": "arXiv:1902.04056 [cs, stat]",
+		"source": "arXiv.org",
+		"abstract": "Conventional Learning-to-Rank (LTR) methods optimize the utility of the rankings to the users, but they are oblivious to their impact on the ranked items. However, there has been a growing understanding that the latter is important to consider for a wide range of ranking applications (e.g. online marketplaces, job placement, admissions). To address this need, we propose a general LTR framework that can optimize a wide range of utility metrics (e.g. NDCG) while satisfying fairness of exposure constraints with respect to the items. This framework expands the class of learnable ranking functions to stochastic ranking policies, which provides a language for rigorously expressing fairness specifications. Furthermore, we provide a new LTR algorithm called Fair-PG-Rank for directly searching the space of fair ranking policies via a policy-gradient approach. Beyond the theoretical evidence in deriving the framework and the algorithm, we provide empirical results on simulated and real-world datasets verifying the effectiveness of the approach in individual and group-fairness settings.",
+		"URL": "http://arxiv.org/abs/1902.04056",
+		"note": "arXiv: 1902.04056",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Ashudeep"
+			},
+			{
+				"family": "Joachims",
+				"given": "Thorsten"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					2,
+					11
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "zehlikeFairSearchToolFairness2019",
+		"type": "article-journal",
+		"title": "FairSearch: A Tool For Fairness in Ranked Search Results",
+		"container-title": "arXiv:1905.13134 [cs]",
+		"source": "arXiv.org",
+		"abstract": "Ranked search results and recommendations have become the main mechanism by which we find content, products, places, and people online. With hiring, selecting, purchasing, and dating being increasingly mediated by algorithms, rankings may determine career and business opportunities, educational placement, access to benefits, and even social and reproductive success. It is therefore of societal and ethical importance to ask whether search results can demote, marginalize, or exclude individuals of unprivileged groups or promote products with undesired features. In this paper we present FairSearch, the first fair open source search API to provide fairness notions in ranked search results. We implement two algorithms from the fair ranking literature, namely FA*IR (Zehlike et al., 2017) and DELTR (Zehlike and Castillo, 2018) and provide them as stand-alone libraries in Python and Java. Additionally we implement interfaces to Elasticsearch for both algorithms, that use the aforementioned Java libraries and are then provided as Elasticsearch plugins. Elasticsearch is a well-known search engine API based on Apache Lucene. With our plugins we enable search engine developers who wish to ensure fair search results of different styles to easily integrate DELTR and FA*IR into their existing Elasticsearch environment.",
+		"URL": "http://arxiv.org/abs/1905.13134",
+		"note": "arXiv: 1905.13134",
+		"title-short": "FairSearch",
+		"author": [
+			{
+				"family": "Zehlike",
+				"given": "Meike"
+			},
+			{
+				"family": "Sühr",
+				"given": "Tom"
+			},
+			{
+				"family": "Castillo",
+				"given": "Carlos"
+			},
+			{
+				"family": "Kitanovski",
+				"given": "Ivan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					5,
+					27
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "otterbacherInvestigatingUserPerception2018",
+		"type": "paper-conference",
+		"title": "Investigating User Perception of Gender Bias in Image Search: The Role of Sexism",
+		"container-title": "The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval",
+		"collection-title": "SIGIR '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "933–936",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "There is growing evidence that search engines produce results that are socially biased, reinforcing a view of the world that aligns with prevalent social stereotypes. One means to promote greater transparency of search algorithms - which are typically complex and proprietary - is to raise user awareness of biased result sets. However, to date, little is known concerning how users perceive bias in search results, and the degree to which their perceptions differ and/or might be predicted based on user attributes. One particular area of search that has recently gained attention, and forms the focus of this study, is image retrieval and gender bias. We conduct a controlled experiment via crowdsourcing using participants recruited from three countries to measure the extent to which workers perceive a given image results set to be subjective or objective. Demographic information about the workers, along with measures of sexism, are gathered and analysed to investigate whether (gender) biases in the image search results can be detected. Amongst other findings, the results confirm that sexist people are less likely to detect and report gender biases in image search results.",
+		"URL": "http://doi.acm.org/10.1145/3209978.3210094",
+		"DOI": "10.1145/3209978.3210094",
+		"ISBN": "978-1-4503-5657-2",
+		"note": "event-place: Ann Arbor, MI, USA",
+		"title-short": "Investigating User Perception of Gender Bias in Image Search",
+		"author": [
+			{
+				"family": "Otterbacher",
+				"given": "Jahna"
+			},
+			{
+				"family": "Checco",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Demartini",
+				"given": "Gianluca"
+			},
+			{
+				"family": "Clough",
+				"given": "Paul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "kuhlmanFAREDiagnosticsFair2019",
+		"type": "paper-conference",
+		"title": "FARE: Diagnostics for Fair Ranking Using Pairwise Error Metrics",
+		"container-title": "The World Wide Web Conference",
+		"collection-title": "WWW '19",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "2936–2942",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Ranking, used extensively online and as a critical tool for decision making across many domains, may embed unfair bias. Tools to measure and correct for discriminatory bias are required to ensure that ranking models do not perpetuate unfair practices. Recently, a number of error-based criteria have been proposed to assess fairness with regard to the treatment of protected groups (as determined by sensitive data attributes, e.g., race, gender, or age). However this has largely been limited to classification tasks, and error metrics used in these approaches are not applicable for ranking. Therefore, in this work we propose to broaden the scope of fairness assessment to include error-based fairness criteria for rankings. Our approach supports three criteria: Rank Equality, Rank Calibration, and Rank Parity, which cover a broad spectrum of fairness considerations from proportional group representation to error rate similarity. The underlying error metrics are formulated to be rank-appropriate, using pairwise discordance to measure prediction error in a model-agnostic fashion. Based on this foundation, we then design a fair auditing mechanism which captures group treatment throughout the entire ranking, generating in-depth yet nuanced diagnostics. We demonstrate the efficacy of our error metrics using real-world scenarios, exposing trade-offs among fairness criteria and providing guidance in the selection of fair-ranking algorithms.",
+		"URL": "http://doi.acm.org/10.1145/3308558.3313443",
+		"DOI": "10.1145/3308558.3313443",
+		"ISBN": "978-1-4503-6674-8",
+		"note": "event-place: San Francisco, CA, USA",
+		"title-short": "FARE",
+		"author": [
+			{
+				"family": "Kuhlman",
+				"given": "Caitlin"
+			},
+			{
+				"family": "VanValkenburg",
+				"given": "MaryAnn"
+			},
+			{
+				"family": "Rundensteiner",
+				"given": "Elke"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "seddighinExternalitiesFairness2019",
+		"type": "paper-conference",
+		"title": "Externalities and Fairness",
+		"container-title": "The World Wide Web Conference",
+		"collection-title": "WWW '19",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "538–548",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "One of the important yet insufficiently studied subjects in fair allocation is the externality effect among agents. For a resource allocation problem, externalities imply that the share allocated to an agent may affect the utilities of other agents.  In this paper, we conduct a study of fair allocation of indivisible goods when the externalities are not negligible. Inspired by the models in the context of network diffusion, we present a simple and natural model, namely network externalities, to capture the externalities. To evaluate fairness in the network externalities model, we generalize the idea behind the notion of maximin-share () to achieve a new criterion, namely, extended-maximin-share (). Next, we consider two problems concerning our model.  First, we discuss the computational aspects of finding the value of for every agent. For this, we introduce a generalized form of partitioning problem that includes many famous partitioning problems such as maximin, minimax, and leximin. We further show that a 1/2-approximation algorithm exists for this partitioning problem.  Next, we investigate on finding approximately optimal allocations, i.e., allocations that guarantee each agent a utility of at least a fraction of his extended-maximin-share. We show that under a natural assumption that the agents are a-self-reliant, an a/2- allocation always exists. The combination of this with the former result yields a polynomial-time a/4- allocation algorithm.",
+		"URL": "http://doi.acm.org/10.1145/3308558.3313670",
+		"DOI": "10.1145/3308558.3313670",
+		"ISBN": "978-1-4503-6674-8",
+		"note": "event-place: San Francisco, CA, USA",
+		"author": [
+			{
+				"family": "Seddighin",
+				"given": "Masoud"
+			},
+			{
+				"family": "Saleh",
+				"given": "Hamed"
+			},
+			{
+				"family": "Ghodsi",
+				"given": "Mohammad"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "jannachBiasesAutomatedMusic2016",
+		"type": "paper-conference",
+		"title": "Biases in Automated Music Playlist Generation: A Comparison of Next-Track Recommending Techniques",
+		"container-title": "Proceedings of the 2016 Conference on User Modeling Adaptation and Personalization",
+		"collection-title": "UMAP '16",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "281–285",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Playlist generation is a special form of music recommendation where the problem is to create a sequence of tracks to be played next, given a number of seed tracks. In academia, the evaluation of playlisting techniques is often done by assessing with the help of information retrieval measures if an algorithm is capable of selecting those tracks that also a human would pick next. Such approaches however cannot capture other factors, e.g., the homogeneity of the tracks that can determine the quality perception of playlists. In this work, we report the results of a multi-metric comparison of different academic approaches and a commercial playlisting service. Our results show that all tested techniques generate playlists with certain biases, e.g., towards very popular tracks, and often create playlists continuations that are quite different from those that are created by real users.",
+		"URL": "http://doi.acm.org/10.1145/2930238.2930283",
+		"DOI": "10.1145/2930238.2930283",
+		"ISBN": "978-1-4503-4368-8",
+		"note": "event-place: Halifax, Nova Scotia, Canada",
+		"title-short": "Biases in Automated Music Playlist Generation",
+		"author": [
+			{
+				"family": "Jannach",
+				"given": "Dietmar"
+			},
+			{
+				"family": "Kamehkhosh",
+				"given": "Iman"
+			},
+			{
+				"family": "Bonnin",
+				"given": "Geoffray"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "cenaPrivacyIssuesHolistic2019",
+		"type": "paper-conference",
+		"title": "Privacy Issues in Holistic Recommendations",
+		"publisher": "ACM",
+		"page": "263-265",
+		"source": "dl.acm.org",
+		"event": "Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization",
+		"URL": "http://dl.acm.org/citation.cfm?id=3314183.3323461",
+		"DOI": "10.1145/3314183.3323461",
+		"ISBN": "978-1-4503-6711-0",
+		"author": [
+			{
+				"family": "Cena",
+				"given": "Federica"
+			},
+			{
+				"family": "Pensa",
+				"given": "Ruggero G."
+			},
+			{
+				"family": "Rapp",
+				"given": "Amon"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					6
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "tintarevSameSameDifferent2018",
+		"type": "paper-conference",
+		"title": "Same, Same, but Different: Algorithmic Diversification of Viewpoints in News",
+		"container-title": "Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization",
+		"collection-title": "UMAP '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "7–13",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Recommender systems for news articles on social media select and filter content through automatic personalization. As a result, users are often unaware of opposing points of view, leading to informational blindspots and potentially polarized opinions. They may be aware of a topic, but only be exposed to one viewpoint on this topic. However, recommender systems have just as much potential to help users find a plurality of viewpoints. In this spirit, this paper introduces an approach to automatically identifying content that represents a wider range of opinions on a given topic. Our offline results show positive results for our distance measure with regard to diversification on topic and channel. However, our user study results confirm that user acceptance of this diversification also needs to be addressed in tandem to enable a complete solution.",
+		"URL": "http://doi.acm.org/10.1145/3213586.3226203",
+		"DOI": "10.1145/3213586.3226203",
+		"ISBN": "978-1-4503-5784-5",
+		"note": "event-place: Singapore, Singapore",
+		"title-short": "Same, Same, but Different",
+		"author": [
+			{
+				"family": "Tintarev",
+				"given": "Nava"
+			},
+			{
+				"family": "Sullivan",
+				"given": "Emily"
+			},
+			{
+				"family": "Guldin",
+				"given": "Dror"
+			},
+			{
+				"family": "Qiu",
+				"given": "Sihang"
+			},
+			{
+				"family": "Odjik",
+				"given": "Daan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "peperkampDiversityCheckerRecommendations2018",
+		"type": "paper-conference",
+		"title": "Diversity Checker: Toward Recommendations for Improving Journalism with Respect to Diversity",
+		"container-title": "Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization",
+		"collection-title": "UMAP '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "35–41",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "The Diversity Checker is a tool that aims to make it easier for journalists to author their texts with diversity in mind. To provide helpful hints for them in this respect, it is necessary to define how to quantify diversity so that this can be programmed into the tool. At this early stage in the development of the tool, we present a two-fold contribution. First, we offer an analysis on what we mean by \"improving diversity\". Second, we present the first version of the Diversity Checker, along with some analysis of its current performance.",
+		"URL": "http://doi.acm.org/10.1145/3213586.3226208",
+		"DOI": "10.1145/3213586.3226208",
+		"ISBN": "978-1-4503-5784-5",
+		"note": "event-place: Singapore, Singapore",
+		"title-short": "Diversity Checker",
+		"author": [
+			{
+				"family": "Peperkamp",
+				"given": "Jeroen"
+			},
+			{
+				"family": "Berendt",
+				"given": "Bettina"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "zhengFairnessReciprocalRecommendations2018",
+		"type": "paper-conference",
+		"title": "Fairness In Reciprocal Recommendations: A Speed-Dating Study",
+		"container-title": "Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization",
+		"collection-title": "UMAP '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "29–34",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "Traditional recommender systems suggest items by learning from user preferences, but ignore other stakeholders in the whole system. Actually, not only the receiver of the recommendations, but also other stakeholders may come into play, such as the producers of items or those of the system owners. Reciprocal recommender system in dating or job recommendations is one of these examples. However, we may have to simulate the utilities for each type of the stakeholder due to the utility definitions. In this paper, we perform exploratory analysis on a speed-dating data, where the user expectations are clearly defined. We try to build a multi-dimensional utility framework by utilizing multi-criteria ratings. We further analyze the relationship between the utilities and recommendation performance, and achieve a tradeoff as the optimal solution. Even more, the proposed approach is able to outperform the exiting reciprocal recommendation algorithms in precision, recall and overall utilities. Finally, we derive a promising way to define and optimize utilities to be generalized in other applications or domains.",
+		"URL": "http://doi.acm.org/10.1145/3213586.3226207",
+		"DOI": "10.1145/3213586.3226207",
+		"ISBN": "978-1-4503-5784-5",
+		"note": "event-place: Singapore, Singapore",
+		"title-short": "Fairness In Reciprocal Recommendations",
+		"author": [
+			{
+				"family": "Zheng",
+				"given": "Yong"
+			},
+			{
+				"family": "Dave",
+				"given": "Tanaya"
+			},
+			{
+				"family": "Mishra",
+				"given": "Neha"
+			},
+			{
+				"family": "Kumar",
+				"given": "Harshit"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "sonboliLocalizedFairnessRecommender2019",
+		"type": "paper-conference",
+		"title": "Localized Fairness in Recommender Systems",
+		"container-title": "Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization  - UMAP'19 Adjunct",
+		"publisher": "ACM Press",
+		"publisher-place": "Larnaca, Cyprus",
+		"page": "295-300",
+		"source": "DOI.org (Crossref)",
+		"event": "Adjunct Publication of the 27th Conference",
+		"event-place": "Larnaca, Cyprus",
+		"abstract": "Recent research in fairness in machine learning has identified situations in which biases in input data can cause harmful or unwanted effects. Researchers in the areas of personalization and recommendation have begun to study similar types of bias. What these lines of research share is a fixed representation of the protected groups relative to which bias must be monitored. However, in some realworld application contexts, such groups cannot be defined apriori, but must be derived from the data itself. Furthermore, as we show, it may be insufficient in such cases to examine global system properties to identify protected groups. Thus, we demonstrate that fairness may be local, and the identification of protected groups only possible through consideration of local conditions.",
+		"URL": "http://dl.acm.org/citation.cfm?doid=3314183.3323845",
+		"DOI": "10.1145/3314183.3323845",
+		"ISBN": "978-1-4503-6711-0",
+		"language": "en",
+		"author": [
+			{
+				"family": "Sonboli",
+				"given": "Nasim"
+			},
+			{
+				"family": "Burke",
+				"given": "Robin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "chakrabortyQuantifyingKnowledgeSegregation2017",
+		"type": "article-journal",
+		"title": "On Quantifying Knowledge Segregation in Society",
+		"container-title": "Fairness, Accountability and Transparency in Recommender Systems",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/2",
+		"author": [
+			{
+				"family": "Chakraborty",
+				"given": "Abhijnan"
+			},
+			{
+				"family": "Ali",
+				"given": "Muhammad"
+			},
+			{
+				"family": "Ghosh",
+				"given": "Saptarshi"
+			},
+			{
+				"family": "Ganguly",
+				"given": "Niloy"
+			},
+			{
+				"family": "Gummadi",
+				"given": "Krishna"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "borchertImpactTaskRecommendation2017",
+		"type": "article-journal",
+		"title": "Impact of Task Recommendation Systems in Crowdsourcing Platforms",
+		"container-title": "Fairness, Accountability and Transparency in Recommender Systems",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/4",
+		"author": [
+			{
+				"family": "Borchert",
+				"given": "Kathrin"
+			},
+			{
+				"family": "Hirth",
+				"given": "Matthias"
+			},
+			{
+				"family": "Schnitzer",
+				"given": "Steffen"
+			},
+			{
+				"family": "Rensing",
+				"given": "Christoph"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "sapiezynskiAcademicPerformancePrediction2017",
+		"type": "article-journal",
+		"title": "Academic performance prediction in a gender-imbalanced environment",
+		"container-title": "Fairness, Accountability and Transparency in Recommender Systems",
+		"URL": "http://scholarworks.boisestate.edu/fatrec/2017/1/10",
+		"author": [
+			{
+				"family": "Sapiezynski",
+				"given": "Piotr"
+			},
+			{
+				"family": "Kassarnig",
+				"given": "Valentin"
+			},
+			{
+				"family": "Wilson",
+				"given": "Christo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "karakoUsingImageFairness2018",
+		"type": "paper-conference",
+		"title": "Using Image Fairness Representations in Diversity-Based Re-ranking for Recommendations",
+		"container-title": "Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization",
+		"collection-title": "UMAP '18",
+		"publisher": "ACM",
+		"publisher-place": "New York, NY, USA",
+		"page": "23–28",
+		"source": "ACM Digital Library",
+		"event-place": "New York, NY, USA",
+		"abstract": "The trade-off between relevance and fairness in personalized recommendations has been explored in recent works, with the goal of minimizing learned discrimination towards certain demographics while still producing relevant results. We present a fairness-aware variation of the Maximal Marginal Relevance (MMR) re-ranking method which uses representations of demographic groups computed using a labeled dataset. This method is intended to incorporate fairness with respect to these demographic groups. We perform an experiment on a stock photo dataset and examine the trade-off between relevance and fairness against a well known baseline, MMR, by using human judgment to examine the results of the re-ranking when using different fractions of a labeled dataset, and by performing a quantitative analysis on the ranked results of a set of query images. We show that our proposed method can incorporate fairness in the ranked results while obtaining higher precision than the baseline, while our case study shows that even a limited amount of labeled data can be used to compute the representations to obtain fairness. This method can be used as a post-processing step for recommender systems and search.",
+		"URL": "http://doi.acm.org/10.1145/3213586.3226206",
+		"DOI": "10.1145/3213586.3226206",
+		"ISBN": "978-1-4503-5784-5",
+		"note": "event-place: Singapore, Singapore",
+		"author": [
+			{
+				"family": "Karako",
+				"given": "Chen"
+			},
+			{
+				"family": "Manggala",
+				"given": "Putra"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "springerAssessingAddressingAlgorithmic2018",
+		"type": "paper-conference",
+		"title": "Assessing and Addressing Algorithmic Bias - But Before We Get There...",
+		"container-title": "AAAA Spring Symposium Series",
+		"URL": "https://www.aaai.org/ocs/index.php/SSS/SSS18/paper/view/17542",
+		"author": [
+			{
+				"family": "Springer",
+				"given": "Aaron"
+			},
+			{
+				"family": "Garcia-Gathright",
+				"given": "Jean"
+			},
+			{
+				"family": "Cramer",
+				"given": "Henriette"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					15
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "liptonDoesMitigatingML2018",
+		"type": "chapter",
+		"title": "Does mitigating ML's impact disparity require treatment disparity?",
+		"container-title": "Advances in Neural Information Processing Systems 31",
+		"publisher": "Curran Associates, Inc.",
+		"page": "8125–8135",
+		"source": "Neural Information Processing Systems",
+		"URL": "http://papers.nips.cc/paper/8035-does-mitigating-mls-impact-disparity-require-treatment-disparity.pdf",
+		"author": [
+			{
+				"family": "Lipton",
+				"given": "Zachary"
+			},
+			{
+				"family": "McAuley",
+				"given": "Julian"
+			},
+			{
+				"family": "Chouldechova",
+				"given": "Alexandra"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bengio",
+				"given": "S."
+			},
+			{
+				"family": "Wallach",
+				"given": "H."
+			},
+			{
+				"family": "Larochelle",
+				"given": "H."
+			},
+			{
+				"family": "Grauman",
+				"given": "K."
+			},
+			{
+				"family": "Cesa-Bianchi",
+				"given": "N."
+			},
+			{
+				"family": "Garnett",
+				"given": "R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "dasConceptualFrameworkEvaluating2019",
+		"type": "article-journal",
+		"title": "A Conceptual Framework for Evaluating Fairness in Search",
+		"container-title": "arXiv:1907.09328 [cs]",
+		"source": "arXiv.org",
+		"abstract": "While search efficacy has been evaluated traditionally on the basis of result relevance, fairness of search has attracted recent attention. In this work, we define a notion of distributional fairness and provide a conceptual framework for evaluating search results based on it. As part of this, we formulate a set of axioms which an ideal evaluation framework should satisfy for distributional fairness. We show how existing TREC test collections can be repurposed to study fairness, and we measure potential data bias to inform test collection design for fair search. A set of analyses show metric divergence between relevance and fairness, and we describe a simple but flexible interpolation strategy for integrating relevance and fairness into a single metric for optimization and evaluation.",
+		"URL": "http://arxiv.org/abs/1907.09328",
+		"note": "arXiv: 1907.09328",
+		"author": [
+			{
+				"family": "Das",
+				"given": "Anubrata"
+			},
+			{
+				"family": "Lease",
+				"given": "Matthew"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					22
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					27
+				]
+			]
+		}
+	}
+]
