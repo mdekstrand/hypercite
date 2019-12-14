@@ -19,6 +19,7 @@ describe("normalizeType()", () => {
 
 describe('Bibligraphy', () => {
   let bib;
+  let papers = ['yangMeasuringFairnessRanked2017', 'bag-recsys18']
 
   it('should load a list of CSLs', async () => {
     let text = await fs.readFile(path.join(__dirname, 'test-cites.json'));
@@ -26,9 +27,11 @@ describe('Bibligraphy', () => {
     expect(bib.bibList.length).to.be.above(5);
   });
 
-  it('should have the paper', () => {
-    let rank = bib.lookup('yangMeasuringFairnessRanked2017');
-    expect(rank).to.exist;
-    expect(rank.id).to.equal('yangMeasuringFairnessRanked2017');
-  });
+  for (let pid of papers) {
+    it(`should have the paper ${pid}`, () => {
+      let rank = bib.lookup(pid);
+      expect(rank).to.exist;
+      expect(rank.id).to.equal(pid);
+    });
+  }
 })
