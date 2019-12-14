@@ -14,6 +14,21 @@ This is currently a *very early* prototype.
 [CSL-JSON]: https://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#
 [hastscript]: https://github.com/syntax-tree/hastscript
 
+## Basic Usage
+
+Right now it doesn't do very much:
+
+```javascript
+const hc = require('hypercite');
+const PreJSON = require('hypercite/lib/styles/PreJSON');
+const h = require('hyperscript');
+
+let bib = hc.Bibliography.fromCSL(cslJson);
+let render = hc.makeBibRender(PreJSON, h);
+
+render.renderBibEntry(bib.lookup('my-csl-key'));
+```
+
 ## Why CSL-JSON?
 
 CSL-JSON is a tedious and verbose format, and a lot of the logic for working with it is
