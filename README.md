@@ -20,11 +20,10 @@ Right now it doesn't do very much:
 
 ```javascript
 const hc = require('hypercite');
-const PreJSON = require('hypercite/lib/styles/PreJSON');
 const h = require('hyperscript');
 
 let bib = hc.Bibliography.fromCSL(cslJson);
-let render = hc.makeBibRender(PreJSON, h);
+let render = hc.makeBibRender(hc.styles.PreJSON, h);
 
 render.renderBibEntry(bib.lookup('my-csl-key'));
 ```
