@@ -20,9 +20,9 @@ function allTests(h, stringify) {
 
   describe('rendering a citation', () => {
     let cite = re.renderBibEntry(bag);
-    console.log('cite: %s', cite);
+    // console.log('cite: %s', cite);
     cite = stringify(cite);
-    console.log('html: %s', cite);
+    // console.log('html: %s', cite);
     let $ = cheerio.load(cite);
     
     it('should render a PRE tag', () => {
