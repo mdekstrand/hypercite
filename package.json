@@ -23,7 +23,7 @@
     "hastscript": "^6.0.0",
     "hyperscript": "^2.0.2",
     "jsdoc": "^3.6.6",
-    "mocha": "^8.3.0",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0"
   },
   "dependencies": {
