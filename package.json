@@ -27,7 +27,7 @@
     "nyc": "^15.1.0"
   },
   "dependencies": {
-    "citation-js": "^0.4.10",
+    "citation-js": "^0.6.4",
     "citeproc": "^2.4.59"
   }
 }
